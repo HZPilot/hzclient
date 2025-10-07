@@ -1,0 +1,6066 @@
+{
+  "data": {
+    "constants": {
+      "casino": {
+        "var1": {
+          "symbol1": 2,
+          "symbol2": 3,
+          "symbol3": 4
+        },
+        "var2": {
+          "symbol1": 2,
+          "symbol2": 4,
+          "symbol3": 3
+        },
+        "var3": {
+          "symbol1": 3,
+          "symbol2": 2,
+          "symbol3": 4
+        },
+        "var4": {
+          "symbol1": 3,
+          "symbol2": 4,
+          "symbol3": 2
+        },
+        "var5": {
+          "symbol1": 4,
+          "symbol2": 2,
+          "symbol3": 3
+        },
+        "var6": {
+          "symbol1": 4,
+          "symbol2": 3,
+          "symbol3": 2
+        },
+        "var7": {
+          "symbol1": 2,
+          "symbol2": 3,
+          "symbol3": 5
+        },
+        "var8": {
+          "symbol1": 2,
+          "symbol2": 5,
+          "symbol3": 3
+        },
+        "var9": {
+          "symbol1": 3,
+          "symbol2": 2,
+          "symbol3": 5
+        },
+        "var10": {
+          "symbol1": 3,
+          "symbol2": 5,
+          "symbol3": 2
+        },
+        "var11": {
+          "symbol1": 5,
+          "symbol2": 2,
+          "symbol3": 3
+        },
+        "var12": {
+          "symbol1": 5,
+          "symbol2": 3,
+          "symbol3": 2
+        },
+        "var13": {
+          "symbol1": 2,
+          "symbol2": 3,
+          "symbol3": 7
+        },
+        "var14": {
+          "symbol1": 2,
+          "symbol2": 7,
+          "symbol3": 3
+        },
+        "var15": {
+          "symbol1": 3,
+          "symbol2": 2,
+          "symbol3": 7
+        },
+        "var16": {
+          "symbol1": 3,
+          "symbol2": 7,
+          "symbol3": 2
+        },
+        "var17": {
+          "symbol1": 7,
+          "symbol2": 2,
+          "symbol3": 3
+        },
+        "var18": {
+          "symbol1": 7,
+          "symbol2": 3,
+          "symbol3": 2
+        },
+        "var19": {
+          "symbol1": 2,
+          "symbol2": 3,
+          "symbol3": 8
+        },
+        "var20": {
+          "symbol1": 2,
+          "symbol2": 8,
+          "symbol3": 3
+        },
+        "var21": {
+          "symbol1": 3,
+          "symbol2": 2,
+          "symbol3": 8
+        },
+        "var22": {
+          "symbol1": 3,
+          "symbol2": 8,
+          "symbol3": 2
+        },
+        "var23": {
+          "symbol1": 8,
+          "symbol2": 2,
+          "symbol3": 3
+        },
+        "var24": {
+          "symbol1": 8,
+          "symbol2": 3,
+          "symbol3": 2
+        },
+        "var25": {
+          "symbol1": 2,
+          "symbol2": 4,
+          "symbol3": 5
+        },
+        "var26": {
+          "symbol1": 2,
+          "symbol2": 5,
+          "symbol3": 4
+        },
+        "var27": {
+          "symbol1": 4,
+          "symbol2": 2,
+          "symbol3": 5
+        },
+        "var28": {
+          "symbol1": 4,
+          "symbol2": 5,
+          "symbol3": 2
+        },
+        "var29": {
+          "symbol1": 5,
+          "symbol2": 2,
+          "symbol3": 4
+        },
+        "var30": {
+          "symbol1": 5,
+          "symbol2": 4,
+          "symbol3": 2
+        },
+        "var31": {
+          "symbol1": 2,
+          "symbol2": 4,
+          "symbol3": 7
+        },
+        "var32": {
+          "symbol1": 2,
+          "symbol2": 7,
+          "symbol3": 4
+        },
+        "var33": {
+          "symbol1": 4,
+          "symbol2": 2,
+          "symbol3": 7
+        },
+        "var34": {
+          "symbol1": 4,
+          "symbol2": 7,
+          "symbol3": 2
+        },
+        "var35": {
+          "symbol1": 7,
+          "symbol2": 2,
+          "symbol3": 4
+        },
+        "var36": {
+          "symbol1": 7,
+          "symbol2": 4,
+          "symbol3": 2
+        },
+        "var37": {
+          "symbol1": 2,
+          "symbol2": 4,
+          "symbol3": 8
+        },
+        "var38": {
+          "symbol1": 2,
+          "symbol2": 8,
+          "symbol3": 4
+        },
+        "var39": {
+          "symbol1": 4,
+          "symbol2": 2,
+          "symbol3": 8
+        },
+        "var40": {
+          "symbol1": 4,
+          "symbol2": 8,
+          "symbol3": 2
+        },
+        "var41": {
+          "symbol1": 8,
+          "symbol2": 2,
+          "symbol3": 4
+        },
+        "var42": {
+          "symbol1": 8,
+          "symbol2": 4,
+          "symbol3": 2
+        },
+        "var43": {
+          "symbol1": 2,
+          "symbol2": 5,
+          "symbol3": 7
+        },
+        "var44": {
+          "symbol1": 2,
+          "symbol2": 7,
+          "symbol3": 5
+        },
+        "var45": {
+          "symbol1": 5,
+          "symbol2": 2,
+          "symbol3": 7
+        },
+        "var46": {
+          "symbol1": 5,
+          "symbol2": 7,
+          "symbol3": 2
+        },
+        "var47": {
+          "symbol1": 7,
+          "symbol2": 2,
+          "symbol3": 5
+        },
+        "var48": {
+          "symbol1": 7,
+          "symbol2": 5,
+          "symbol3": 2
+        },
+        "var49": {
+          "symbol1": 2,
+          "symbol2": 5,
+          "symbol3": 8
+        },
+        "var50": {
+          "symbol1": 2,
+          "symbol2": 8,
+          "symbol3": 5
+        },
+        "var51": {
+          "symbol1": 5,
+          "symbol2": 2,
+          "symbol3": 8
+        },
+        "var52": {
+          "symbol1": 5,
+          "symbol2": 8,
+          "symbol3": 2
+        },
+        "var53": {
+          "symbol1": 8,
+          "symbol2": 2,
+          "symbol3": 5
+        },
+        "var54": {
+          "symbol1": 8,
+          "symbol2": 5,
+          "symbol3": 2
+        },
+        "var55": {
+          "symbol1": 2,
+          "symbol2": 7,
+          "symbol3": 8
+        },
+        "var56": {
+          "symbol1": 2,
+          "symbol2": 8,
+          "symbol3": 7
+        },
+        "var57": {
+          "symbol1": 7,
+          "symbol2": 2,
+          "symbol3": 8
+        },
+        "var58": {
+          "symbol1": 7,
+          "symbol2": 8,
+          "symbol3": 2
+        },
+        "var59": {
+          "symbol1": 8,
+          "symbol2": 2,
+          "symbol3": 7
+        },
+        "var60": {
+          "symbol1": 8,
+          "symbol2": 7,
+          "symbol3": 2
+        },
+        "var61": {
+          "symbol1": 2,
+          "symbol2": 2,
+          "symbol3": 2
+        },
+        "var62": {
+          "symbol1": 3,
+          "symbol2": 2,
+          "symbol3": 4
+        },
+        "var63": {
+          "symbol1": 3,
+          "symbol2": 4,
+          "symbol3": 2
+        },
+        "var64": {
+          "symbol1": 2,
+          "symbol2": 3,
+          "symbol3": 4
+        },
+        "var65": {
+          "symbol1": 2,
+          "symbol2": 4,
+          "symbol3": 3
+        },
+        "var66": {
+          "symbol1": 4,
+          "symbol2": 3,
+          "symbol3": 2
+        },
+        "var67": {
+          "symbol1": 4,
+          "symbol2": 2,
+          "symbol3": 3
+        },
+        "var68": {
+          "symbol1": 3,
+          "symbol2": 2,
+          "symbol3": 5
+        },
+        "var69": {
+          "symbol1": 3,
+          "symbol2": 5,
+          "symbol3": 2
+        },
+        "var70": {
+          "symbol1": 2,
+          "symbol2": 3,
+          "symbol3": 5
+        },
+        "var71": {
+          "symbol1": 2,
+          "symbol2": 5,
+          "symbol3": 3
+        },
+        "var72": {
+          "symbol1": 5,
+          "symbol2": 3,
+          "symbol3": 2
+        },
+        "var73": {
+          "symbol1": 5,
+          "symbol2": 2,
+          "symbol3": 3
+        },
+        "var74": {
+          "symbol1": 3,
+          "symbol2": 2,
+          "symbol3": 7
+        },
+        "var75": {
+          "symbol1": 3,
+          "symbol2": 7,
+          "symbol3": 2
+        },
+        "var76": {
+          "symbol1": 2,
+          "symbol2": 3,
+          "symbol3": 7
+        },
+        "var77": {
+          "symbol1": 2,
+          "symbol2": 7,
+          "symbol3": 3
+        },
+        "var78": {
+          "symbol1": 7,
+          "symbol2": 3,
+          "symbol3": 2
+        },
+        "var79": {
+          "symbol1": 7,
+          "symbol2": 2,
+          "symbol3": 3
+        },
+        "var80": {
+          "symbol1": 3,
+          "symbol2": 2,
+          "symbol3": 8
+        },
+        "var81": {
+          "symbol1": 3,
+          "symbol2": 8,
+          "symbol3": 2
+        },
+        "var82": {
+          "symbol1": 2,
+          "symbol2": 3,
+          "symbol3": 8
+        },
+        "var83": {
+          "symbol1": 2,
+          "symbol2": 8,
+          "symbol3": 3
+        },
+        "var84": {
+          "symbol1": 8,
+          "symbol2": 3,
+          "symbol3": 2
+        },
+        "var85": {
+          "symbol1": 8,
+          "symbol2": 2,
+          "symbol3": 3
+        },
+        "var86": {
+          "symbol1": 3,
+          "symbol2": 4,
+          "symbol3": 5
+        },
+        "var87": {
+          "symbol1": 3,
+          "symbol2": 5,
+          "symbol3": 4
+        },
+        "var88": {
+          "symbol1": 4,
+          "symbol2": 3,
+          "symbol3": 5
+        },
+        "var89": {
+          "symbol1": 4,
+          "symbol2": 5,
+          "symbol3": 3
+        },
+        "var90": {
+          "symbol1": 5,
+          "symbol2": 3,
+          "symbol3": 4
+        },
+        "var91": {
+          "symbol1": 5,
+          "symbol2": 4,
+          "symbol3": 3
+        },
+        "var92": {
+          "symbol1": 3,
+          "symbol2": 4,
+          "symbol3": 7
+        },
+        "var93": {
+          "symbol1": 3,
+          "symbol2": 7,
+          "symbol3": 4
+        },
+        "var94": {
+          "symbol1": 4,
+          "symbol2": 3,
+          "symbol3": 7
+        },
+        "var95": {
+          "symbol1": 4,
+          "symbol2": 7,
+          "symbol3": 3
+        },
+        "var96": {
+          "symbol1": 7,
+          "symbol2": 3,
+          "symbol3": 4
+        },
+        "var97": {
+          "symbol1": 7,
+          "symbol2": 4,
+          "symbol3": 3
+        },
+        "var98": {
+          "symbol1": 3,
+          "symbol2": 4,
+          "symbol3": 8
+        },
+        "var99": {
+          "symbol1": 3,
+          "symbol2": 8,
+          "symbol3": 4
+        },
+        "var100": {
+          "symbol1": 4,
+          "symbol2": 3,
+          "symbol3": 8
+        },
+        "var101": {
+          "symbol1": 4,
+          "symbol2": 8,
+          "symbol3": 3
+        },
+        "var102": {
+          "symbol1": 8,
+          "symbol2": 3,
+          "symbol3": 4
+        },
+        "var103": {
+          "symbol1": 8,
+          "symbol2": 4,
+          "symbol3": 3
+        },
+        "var104": {
+          "symbol1": 3,
+          "symbol2": 5,
+          "symbol3": 7
+        },
+        "var105": {
+          "symbol1": 3,
+          "symbol2": 7,
+          "symbol3": 5
+        },
+        "var106": {
+          "symbol1": 5,
+          "symbol2": 3,
+          "symbol3": 7
+        },
+        "var107": {
+          "symbol1": 5,
+          "symbol2": 7,
+          "symbol3": 3
+        },
+        "var108": {
+          "symbol1": 7,
+          "symbol2": 3,
+          "symbol3": 5
+        },
+        "var109": {
+          "symbol1": 7,
+          "symbol2": 5,
+          "symbol3": 3
+        },
+        "var110": {
+          "symbol1": 3,
+          "symbol2": 5,
+          "symbol3": 8
+        },
+        "var111": {
+          "symbol1": 3,
+          "symbol2": 8,
+          "symbol3": 5
+        },
+        "var112": {
+          "symbol1": 5,
+          "symbol2": 3,
+          "symbol3": 8
+        },
+        "var113": {
+          "symbol1": 5,
+          "symbol2": 8,
+          "symbol3": 3
+        },
+        "var114": {
+          "symbol1": 8,
+          "symbol2": 3,
+          "symbol3": 5
+        },
+        "var115": {
+          "symbol1": 8,
+          "symbol2": 5,
+          "symbol3": 3
+        },
+        "var116": {
+          "symbol1": 3,
+          "symbol2": 7,
+          "symbol3": 8
+        },
+        "var117": {
+          "symbol1": 3,
+          "symbol2": 8,
+          "symbol3": 7
+        },
+        "var118": {
+          "symbol1": 7,
+          "symbol2": 3,
+          "symbol3": 8
+        },
+        "var119": {
+          "symbol1": 7,
+          "symbol2": 8,
+          "symbol3": 3
+        },
+        "var120": {
+          "symbol1": 8,
+          "symbol2": 3,
+          "symbol3": 7
+        },
+        "var121": {
+          "symbol1": 8,
+          "symbol2": 7,
+          "symbol3": 3
+        },
+        "var122": {
+          "symbol1": 3,
+          "symbol2": 2,
+          "symbol3": 4
+        },
+        "var123": {
+          "symbol1": 3,
+          "symbol2": 4,
+          "symbol3": 2
+        },
+        "var124": {
+          "symbol1": 2,
+          "symbol2": 3,
+          "symbol3": 4
+        },
+        "var125": {
+          "symbol1": 2,
+          "symbol2": 4,
+          "symbol3": 3
+        },
+        "var126": {
+          "symbol1": 4,
+          "symbol2": 3,
+          "symbol3": 2
+        },
+        "var127": {
+          "symbol1": 4,
+          "symbol2": 2,
+          "symbol3": 3
+        },
+        "var128": {
+          "symbol1": 3,
+          "symbol2": 2,
+          "symbol3": 5
+        },
+        "var129": {
+          "symbol1": 3,
+          "symbol2": 5,
+          "symbol3": 2
+        },
+        "var130": {
+          "symbol1": 2,
+          "symbol2": 3,
+          "symbol3": 5
+        },
+        "var131": {
+          "symbol1": 2,
+          "symbol2": 5,
+          "symbol3": 3
+        },
+        "var132": {
+          "symbol1": 5,
+          "symbol2": 3,
+          "symbol3": 2
+        },
+        "var133": {
+          "symbol1": 5,
+          "symbol2": 2,
+          "symbol3": 3
+        },
+        "var134": {
+          "symbol1": 3,
+          "symbol2": 2,
+          "symbol3": 7
+        },
+        "var135": {
+          "symbol1": 3,
+          "symbol2": 7,
+          "symbol3": 2
+        },
+        "var136": {
+          "symbol1": 2,
+          "symbol2": 3,
+          "symbol3": 7
+        },
+        "var137": {
+          "symbol1": 2,
+          "symbol2": 7,
+          "symbol3": 3
+        },
+        "var138": {
+          "symbol1": 7,
+          "symbol2": 3,
+          "symbol3": 2
+        },
+        "var139": {
+          "symbol1": 7,
+          "symbol2": 2,
+          "symbol3": 3
+        },
+        "var140": {
+          "symbol1": 3,
+          "symbol2": 2,
+          "symbol3": 8
+        },
+        "var141": {
+          "symbol1": 3,
+          "symbol2": 8,
+          "symbol3": 2
+        },
+        "var142": {
+          "symbol1": 2,
+          "symbol2": 3,
+          "symbol3": 8
+        },
+        "var143": {
+          "symbol1": 2,
+          "symbol2": 8,
+          "symbol3": 3
+        },
+        "var144": {
+          "symbol1": 8,
+          "symbol2": 3,
+          "symbol3": 2
+        },
+        "var145": {
+          "symbol1": 8,
+          "symbol2": 2,
+          "symbol3": 3
+        },
+        "var146": {
+          "symbol1": 3,
+          "symbol2": 4,
+          "symbol3": 5
+        },
+        "var147": {
+          "symbol1": 3,
+          "symbol2": 5,
+          "symbol3": 4
+        },
+        "var148": {
+          "symbol1": 4,
+          "symbol2": 3,
+          "symbol3": 5
+        },
+        "var149": {
+          "symbol1": 4,
+          "symbol2": 5,
+          "symbol3": 3
+        },
+        "var150": {
+          "symbol1": 5,
+          "symbol2": 3,
+          "symbol3": 4
+        },
+        "var151": {
+          "symbol1": 5,
+          "symbol2": 4,
+          "symbol3": 3
+        },
+        "var152": {
+          "symbol1": 3,
+          "symbol2": 4,
+          "symbol3": 7
+        },
+        "var153": {
+          "symbol1": 3,
+          "symbol2": 7,
+          "symbol3": 4
+        },
+        "var154": {
+          "symbol1": 4,
+          "symbol2": 3,
+          "symbol3": 7
+        },
+        "var155": {
+          "symbol1": 4,
+          "symbol2": 7,
+          "symbol3": 3
+        },
+        "var156": {
+          "symbol1": 7,
+          "symbol2": 3,
+          "symbol3": 4
+        },
+        "var157": {
+          "symbol1": 7,
+          "symbol2": 4,
+          "symbol3": 3
+        },
+        "var158": {
+          "symbol1": 3,
+          "symbol2": 4,
+          "symbol3": 8
+        },
+        "var159": {
+          "symbol1": 3,
+          "symbol2": 8,
+          "symbol3": 4
+        },
+        "var160": {
+          "symbol1": 4,
+          "symbol2": 3,
+          "symbol3": 8
+        },
+        "var161": {
+          "symbol1": 4,
+          "symbol2": 8,
+          "symbol3": 3
+        },
+        "var162": {
+          "symbol1": 8,
+          "symbol2": 3,
+          "symbol3": 4
+        },
+        "var163": {
+          "symbol1": 8,
+          "symbol2": 4,
+          "symbol3": 3
+        },
+        "var164": {
+          "symbol1": 3,
+          "symbol2": 5,
+          "symbol3": 7
+        },
+        "var165": {
+          "symbol1": 3,
+          "symbol2": 7,
+          "symbol3": 5
+        },
+        "var166": {
+          "symbol1": 5,
+          "symbol2": 3,
+          "symbol3": 7
+        },
+        "var167": {
+          "symbol1": 5,
+          "symbol2": 7,
+          "symbol3": 3
+        },
+        "var168": {
+          "symbol1": 7,
+          "symbol2": 3,
+          "symbol3": 5
+        },
+        "var169": {
+          "symbol1": 7,
+          "symbol2": 5,
+          "symbol3": 3
+        },
+        "var170": {
+          "symbol1": 3,
+          "symbol2": 5,
+          "symbol3": 8
+        },
+        "var171": {
+          "symbol1": 3,
+          "symbol2": 8,
+          "symbol3": 5
+        },
+        "var172": {
+          "symbol1": 5,
+          "symbol2": 3,
+          "symbol3": 8
+        },
+        "var173": {
+          "symbol1": 5,
+          "symbol2": 8,
+          "symbol3": 3
+        },
+        "var174": {
+          "symbol1": 8,
+          "symbol2": 3,
+          "symbol3": 5
+        },
+        "var175": {
+          "symbol1": 8,
+          "symbol2": 5,
+          "symbol3": 3
+        },
+        "var176": {
+          "symbol1": 3,
+          "symbol2": 7,
+          "symbol3": 8
+        },
+        "var177": {
+          "symbol1": 3,
+          "symbol2": 8,
+          "symbol3": 7
+        },
+        "var178": {
+          "symbol1": 7,
+          "symbol2": 3,
+          "symbol3": 8
+        },
+        "var179": {
+          "symbol1": 7,
+          "symbol2": 8,
+          "symbol3": 3
+        },
+        "var180": {
+          "symbol1": 8,
+          "symbol2": 3,
+          "symbol3": 7
+        },
+        "var181": {
+          "symbol1": 8,
+          "symbol2": 7,
+          "symbol3": 3
+        },
+        "var182": {
+          "symbol1": 3,
+          "symbol2": 2,
+          "symbol3": 4
+        },
+        "var183": {
+          "symbol1": 3,
+          "symbol2": 4,
+          "symbol3": 2
+        },
+        "var184": {
+          "symbol1": 2,
+          "symbol2": 3,
+          "symbol3": 4
+        },
+        "var185": {
+          "symbol1": 2,
+          "symbol2": 4,
+          "symbol3": 3
+        },
+        "var186": {
+          "symbol1": 4,
+          "symbol2": 3,
+          "symbol3": 2
+        },
+        "var187": {
+          "symbol1": 4,
+          "symbol2": 2,
+          "symbol3": 3
+        },
+        "var188": {
+          "symbol1": 3,
+          "symbol2": 2,
+          "symbol3": 5
+        },
+        "var189": {
+          "symbol1": 3,
+          "symbol2": 5,
+          "symbol3": 2
+        },
+        "var190": {
+          "symbol1": 2,
+          "symbol2": 3,
+          "symbol3": 5
+        },
+        "var191": {
+          "symbol1": 2,
+          "symbol2": 5,
+          "symbol3": 3
+        },
+        "var192": {
+          "symbol1": 5,
+          "symbol2": 3,
+          "symbol3": 2
+        },
+        "var193": {
+          "symbol1": 5,
+          "symbol2": 2,
+          "symbol3": 3
+        },
+        "var194": {
+          "symbol1": 3,
+          "symbol2": 2,
+          "symbol3": 7
+        },
+        "var195": {
+          "symbol1": 3,
+          "symbol2": 7,
+          "symbol3": 2
+        },
+        "var196": {
+          "symbol1": 2,
+          "symbol2": 3,
+          "symbol3": 7
+        },
+        "var197": {
+          "symbol1": 2,
+          "symbol2": 7,
+          "symbol3": 3
+        },
+        "var198": {
+          "symbol1": 7,
+          "symbol2": 3,
+          "symbol3": 2
+        },
+        "var199": {
+          "symbol1": 7,
+          "symbol2": 2,
+          "symbol3": 3
+        },
+        "var200": {
+          "symbol1": 3,
+          "symbol2": 2,
+          "symbol3": 8
+        },
+        "var201": {
+          "symbol1": 3,
+          "symbol2": 8,
+          "symbol3": 2
+        },
+        "var202": {
+          "symbol1": 2,
+          "symbol2": 3,
+          "symbol3": 8
+        },
+        "var203": {
+          "symbol1": 2,
+          "symbol2": 8,
+          "symbol3": 3
+        },
+        "var204": {
+          "symbol1": 8,
+          "symbol2": 3,
+          "symbol3": 2
+        },
+        "var205": {
+          "symbol1": 8,
+          "symbol2": 2,
+          "symbol3": 3
+        },
+        "var206": {
+          "symbol1": 3,
+          "symbol2": 4,
+          "symbol3": 5
+        },
+        "var207": {
+          "symbol1": 3,
+          "symbol2": 5,
+          "symbol3": 4
+        },
+        "var208": {
+          "symbol1": 4,
+          "symbol2": 3,
+          "symbol3": 5
+        },
+        "var209": {
+          "symbol1": 4,
+          "symbol2": 5,
+          "symbol3": 3
+        },
+        "var210": {
+          "symbol1": 5,
+          "symbol2": 3,
+          "symbol3": 4
+        },
+        "var211": {
+          "symbol1": 5,
+          "symbol2": 4,
+          "symbol3": 3
+        },
+        "var212": {
+          "symbol1": 3,
+          "symbol2": 4,
+          "symbol3": 7
+        },
+        "var213": {
+          "symbol1": 3,
+          "symbol2": 7,
+          "symbol3": 4
+        },
+        "var214": {
+          "symbol1": 4,
+          "symbol2": 3,
+          "symbol3": 7
+        },
+        "var215": {
+          "symbol1": 4,
+          "symbol2": 7,
+          "symbol3": 3
+        },
+        "var216": {
+          "symbol1": 7,
+          "symbol2": 3,
+          "symbol3": 4
+        },
+        "var217": {
+          "symbol1": 7,
+          "symbol2": 4,
+          "symbol3": 3
+        },
+        "var218": {
+          "symbol1": 3,
+          "symbol2": 4,
+          "symbol3": 8
+        },
+        "var219": {
+          "symbol1": 3,
+          "symbol2": 8,
+          "symbol3": 4
+        },
+        "var220": {
+          "symbol1": 4,
+          "symbol2": 3,
+          "symbol3": 8
+        },
+        "var221": {
+          "symbol1": 4,
+          "symbol2": 8,
+          "symbol3": 3
+        },
+        "var222": {
+          "symbol1": 8,
+          "symbol2": 3,
+          "symbol3": 4
+        },
+        "var223": {
+          "symbol1": 8,
+          "symbol2": 4,
+          "symbol3": 3
+        },
+        "var224": {
+          "symbol1": 3,
+          "symbol2": 5,
+          "symbol3": 7
+        },
+        "var225": {
+          "symbol1": 3,
+          "symbol2": 7,
+          "symbol3": 5
+        },
+        "var226": {
+          "symbol1": 5,
+          "symbol2": 3,
+          "symbol3": 7
+        },
+        "var227": {
+          "symbol1": 5,
+          "symbol2": 7,
+          "symbol3": 3
+        },
+        "var228": {
+          "symbol1": 7,
+          "symbol2": 3,
+          "symbol3": 5
+        },
+        "var229": {
+          "symbol1": 7,
+          "symbol2": 5,
+          "symbol3": 3
+        },
+        "var230": {
+          "symbol1": 3,
+          "symbol2": 5,
+          "symbol3": 8
+        },
+        "var231": {
+          "symbol1": 3,
+          "symbol2": 8,
+          "symbol3": 5
+        },
+        "var232": {
+          "symbol1": 5,
+          "symbol2": 3,
+          "symbol3": 8
+        },
+        "var233": {
+          "symbol1": 5,
+          "symbol2": 8,
+          "symbol3": 3
+        },
+        "var234": {
+          "symbol1": 8,
+          "symbol2": 3,
+          "symbol3": 5
+        },
+        "var235": {
+          "symbol1": 8,
+          "symbol2": 5,
+          "symbol3": 3
+        },
+        "var236": {
+          "symbol1": 3,
+          "symbol2": 7,
+          "symbol3": 8
+        },
+        "var237": {
+          "symbol1": 3,
+          "symbol2": 8,
+          "symbol3": 7
+        },
+        "var238": {
+          "symbol1": 7,
+          "symbol2": 3,
+          "symbol3": 8
+        },
+        "var239": {
+          "symbol1": 7,
+          "symbol2": 8,
+          "symbol3": 3
+        },
+        "var240": {
+          "symbol1": 8,
+          "symbol2": 3,
+          "symbol3": 7
+        },
+        "var241": {
+          "symbol1": 8,
+          "symbol2": 7,
+          "symbol3": 3
+        },
+        "var242": {
+          "symbol1": 3,
+          "symbol2": 3,
+          "symbol3": 3
+        },
+        "var243": {
+          "symbol1": 4,
+          "symbol2": 2,
+          "symbol3": 3
+        },
+        "var244": {
+          "symbol1": 4,
+          "symbol2": 3,
+          "symbol3": 2
+        },
+        "var245": {
+          "symbol1": 2,
+          "symbol2": 4,
+          "symbol3": 3
+        },
+        "var246": {
+          "symbol1": 2,
+          "symbol2": 3,
+          "symbol3": 4
+        },
+        "var247": {
+          "symbol1": 3,
+          "symbol2": 4,
+          "symbol3": 2
+        },
+        "var248": {
+          "symbol1": 3,
+          "symbol2": 2,
+          "symbol3": 4
+        },
+        "var249": {
+          "symbol1": 4,
+          "symbol2": 2,
+          "symbol3": 5
+        },
+        "var250": {
+          "symbol1": 4,
+          "symbol2": 5,
+          "symbol3": 2
+        },
+        "var251": {
+          "symbol1": 2,
+          "symbol2": 4,
+          "symbol3": 5
+        },
+        "var252": {
+          "symbol1": 2,
+          "symbol2": 5,
+          "symbol3": 4
+        },
+        "var253": {
+          "symbol1": 5,
+          "symbol2": 4,
+          "symbol3": 2
+        },
+        "var254": {
+          "symbol1": 5,
+          "symbol2": 2,
+          "symbol3": 4
+        },
+        "var255": {
+          "symbol1": 4,
+          "symbol2": 2,
+          "symbol3": 7
+        },
+        "var256": {
+          "symbol1": 4,
+          "symbol2": 7,
+          "symbol3": 2
+        },
+        "var257": {
+          "symbol1": 2,
+          "symbol2": 4,
+          "symbol3": 7
+        },
+        "var258": {
+          "symbol1": 2,
+          "symbol2": 7,
+          "symbol3": 4
+        },
+        "var259": {
+          "symbol1": 7,
+          "symbol2": 4,
+          "symbol3": 2
+        },
+        "var260": {
+          "symbol1": 7,
+          "symbol2": 2,
+          "symbol3": 4
+        },
+        "var261": {
+          "symbol1": 4,
+          "symbol2": 2,
+          "symbol3": 8
+        },
+        "var262": {
+          "symbol1": 4,
+          "symbol2": 8,
+          "symbol3": 2
+        },
+        "var263": {
+          "symbol1": 2,
+          "symbol2": 4,
+          "symbol3": 8
+        },
+        "var264": {
+          "symbol1": 2,
+          "symbol2": 8,
+          "symbol3": 4
+        },
+        "var265": {
+          "symbol1": 8,
+          "symbol2": 4,
+          "symbol3": 2
+        },
+        "var266": {
+          "symbol1": 8,
+          "symbol2": 2,
+          "symbol3": 4
+        },
+        "var267": {
+          "symbol1": 4,
+          "symbol2": 3,
+          "symbol3": 5
+        },
+        "var268": {
+          "symbol1": 4,
+          "symbol2": 5,
+          "symbol3": 3
+        },
+        "var269": {
+          "symbol1": 3,
+          "symbol2": 4,
+          "symbol3": 5
+        },
+        "var270": {
+          "symbol1": 3,
+          "symbol2": 5,
+          "symbol3": 4
+        },
+        "var271": {
+          "symbol1": 5,
+          "symbol2": 4,
+          "symbol3": 3
+        },
+        "var272": {
+          "symbol1": 5,
+          "symbol2": 3,
+          "symbol3": 4
+        },
+        "var273": {
+          "symbol1": 4,
+          "symbol2": 3,
+          "symbol3": 7
+        },
+        "var274": {
+          "symbol1": 4,
+          "symbol2": 7,
+          "symbol3": 3
+        },
+        "var275": {
+          "symbol1": 3,
+          "symbol2": 4,
+          "symbol3": 7
+        },
+        "var276": {
+          "symbol1": 3,
+          "symbol2": 7,
+          "symbol3": 4
+        },
+        "var277": {
+          "symbol1": 7,
+          "symbol2": 4,
+          "symbol3": 3
+        },
+        "var278": {
+          "symbol1": 7,
+          "symbol2": 3,
+          "symbol3": 4
+        },
+        "var279": {
+          "symbol1": 4,
+          "symbol2": 3,
+          "symbol3": 8
+        },
+        "var280": {
+          "symbol1": 4,
+          "symbol2": 8,
+          "symbol3": 3
+        },
+        "var281": {
+          "symbol1": 3,
+          "symbol2": 4,
+          "symbol3": 8
+        },
+        "var282": {
+          "symbol1": 3,
+          "symbol2": 8,
+          "symbol3": 4
+        },
+        "var283": {
+          "symbol1": 8,
+          "symbol2": 4,
+          "symbol3": 3
+        },
+        "var284": {
+          "symbol1": 8,
+          "symbol2": 3,
+          "symbol3": 4
+        },
+        "var285": {
+          "symbol1": 4,
+          "symbol2": 5,
+          "symbol3": 7
+        },
+        "var286": {
+          "symbol1": 4,
+          "symbol2": 7,
+          "symbol3": 5
+        },
+        "var287": {
+          "symbol1": 5,
+          "symbol2": 4,
+          "symbol3": 7
+        },
+        "var288": {
+          "symbol1": 5,
+          "symbol2": 7,
+          "symbol3": 4
+        },
+        "var289": {
+          "symbol1": 7,
+          "symbol2": 4,
+          "symbol3": 5
+        },
+        "var290": {
+          "symbol1": 7,
+          "symbol2": 5,
+          "symbol3": 4
+        },
+        "var291": {
+          "symbol1": 4,
+          "symbol2": 5,
+          "symbol3": 8
+        },
+        "var292": {
+          "symbol1": 4,
+          "symbol2": 8,
+          "symbol3": 5
+        },
+        "var293": {
+          "symbol1": 5,
+          "symbol2": 4,
+          "symbol3": 8
+        },
+        "var294": {
+          "symbol1": 5,
+          "symbol2": 8,
+          "symbol3": 4
+        },
+        "var295": {
+          "symbol1": 8,
+          "symbol2": 4,
+          "symbol3": 5
+        },
+        "var296": {
+          "symbol1": 8,
+          "symbol2": 5,
+          "symbol3": 4
+        },
+        "var297": {
+          "symbol1": 4,
+          "symbol2": 7,
+          "symbol3": 8
+        },
+        "var298": {
+          "symbol1": 4,
+          "symbol2": 8,
+          "symbol3": 7
+        },
+        "var299": {
+          "symbol1": 7,
+          "symbol2": 4,
+          "symbol3": 8
+        },
+        "var300": {
+          "symbol1": 7,
+          "symbol2": 8,
+          "symbol3": 4
+        },
+        "var301": {
+          "symbol1": 8,
+          "symbol2": 4,
+          "symbol3": 7
+        },
+        "var302": {
+          "symbol1": 8,
+          "symbol2": 7,
+          "symbol3": 4
+        },
+        "var303": {
+          "symbol1": 4,
+          "symbol2": 4,
+          "symbol3": 4
+        },
+        "var304": {
+          "symbol1": 5,
+          "symbol2": 2,
+          "symbol3": 3
+        },
+        "var305": {
+          "symbol1": 5,
+          "symbol2": 3,
+          "symbol3": 2
+        },
+        "var306": {
+          "symbol1": 2,
+          "symbol2": 5,
+          "symbol3": 3
+        },
+        "var307": {
+          "symbol1": 2,
+          "symbol2": 3,
+          "symbol3": 5
+        },
+        "var308": {
+          "symbol1": 3,
+          "symbol2": 5,
+          "symbol3": 2
+        },
+        "var309": {
+          "symbol1": 3,
+          "symbol2": 2,
+          "symbol3": 5
+        },
+        "var310": {
+          "symbol1": 5,
+          "symbol2": 2,
+          "symbol3": 4
+        },
+        "var311": {
+          "symbol1": 5,
+          "symbol2": 4,
+          "symbol3": 2
+        },
+        "var312": {
+          "symbol1": 2,
+          "symbol2": 5,
+          "symbol3": 4
+        },
+        "var313": {
+          "symbol1": 2,
+          "symbol2": 4,
+          "symbol3": 5
+        },
+        "var314": {
+          "symbol1": 4,
+          "symbol2": 5,
+          "symbol3": 2
+        },
+        "var315": {
+          "symbol1": 4,
+          "symbol2": 2,
+          "symbol3": 5
+        },
+        "var316": {
+          "symbol1": 5,
+          "symbol2": 2,
+          "symbol3": 7
+        },
+        "var317": {
+          "symbol1": 5,
+          "symbol2": 7,
+          "symbol3": 2
+        },
+        "var318": {
+          "symbol1": 2,
+          "symbol2": 5,
+          "symbol3": 7
+        },
+        "var319": {
+          "symbol1": 2,
+          "symbol2": 7,
+          "symbol3": 5
+        },
+        "var320": {
+          "symbol1": 7,
+          "symbol2": 5,
+          "symbol3": 2
+        },
+        "var321": {
+          "symbol1": 7,
+          "symbol2": 2,
+          "symbol3": 5
+        },
+        "var322": {
+          "symbol1": 5,
+          "symbol2": 2,
+          "symbol3": 8
+        },
+        "var323": {
+          "symbol1": 5,
+          "symbol2": 8,
+          "symbol3": 2
+        },
+        "var324": {
+          "symbol1": 2,
+          "symbol2": 5,
+          "symbol3": 8
+        },
+        "var325": {
+          "symbol1": 2,
+          "symbol2": 8,
+          "symbol3": 5
+        },
+        "var326": {
+          "symbol1": 8,
+          "symbol2": 5,
+          "symbol3": 2
+        },
+        "var327": {
+          "symbol1": 8,
+          "symbol2": 2,
+          "symbol3": 5
+        },
+        "var328": {
+          "symbol1": 5,
+          "symbol2": 3,
+          "symbol3": 4
+        },
+        "var329": {
+          "symbol1": 5,
+          "symbol2": 4,
+          "symbol3": 3
+        },
+        "var330": {
+          "symbol1": 3,
+          "symbol2": 5,
+          "symbol3": 4
+        },
+        "var331": {
+          "symbol1": 3,
+          "symbol2": 4,
+          "symbol3": 5
+        },
+        "var332": {
+          "symbol1": 4,
+          "symbol2": 5,
+          "symbol3": 3
+        },
+        "var333": {
+          "symbol1": 4,
+          "symbol2": 3,
+          "symbol3": 5
+        },
+        "var334": {
+          "symbol1": 5,
+          "symbol2": 3,
+          "symbol3": 7
+        },
+        "var335": {
+          "symbol1": 5,
+          "symbol2": 7,
+          "symbol3": 3
+        },
+        "var336": {
+          "symbol1": 3,
+          "symbol2": 5,
+          "symbol3": 7
+        },
+        "var337": {
+          "symbol1": 3,
+          "symbol2": 7,
+          "symbol3": 5
+        },
+        "var338": {
+          "symbol1": 7,
+          "symbol2": 5,
+          "symbol3": 3
+        },
+        "var339": {
+          "symbol1": 7,
+          "symbol2": 3,
+          "symbol3": 5
+        },
+        "var340": {
+          "symbol1": 5,
+          "symbol2": 3,
+          "symbol3": 8
+        },
+        "var341": {
+          "symbol1": 5,
+          "symbol2": 8,
+          "symbol3": 3
+        },
+        "var342": {
+          "symbol1": 3,
+          "symbol2": 5,
+          "symbol3": 8
+        },
+        "var343": {
+          "symbol1": 3,
+          "symbol2": 8,
+          "symbol3": 5
+        },
+        "var344": {
+          "symbol1": 8,
+          "symbol2": 5,
+          "symbol3": 3
+        },
+        "var345": {
+          "symbol1": 8,
+          "symbol2": 3,
+          "symbol3": 5
+        },
+        "var346": {
+          "symbol1": 5,
+          "symbol2": 4,
+          "symbol3": 7
+        },
+        "var347": {
+          "symbol1": 5,
+          "symbol2": 7,
+          "symbol3": 4
+        },
+        "var348": {
+          "symbol1": 4,
+          "symbol2": 5,
+          "symbol3": 7
+        },
+        "var349": {
+          "symbol1": 4,
+          "symbol2": 7,
+          "symbol3": 5
+        },
+        "var350": {
+          "symbol1": 7,
+          "symbol2": 5,
+          "symbol3": 4
+        },
+        "var351": {
+          "symbol1": 7,
+          "symbol2": 4,
+          "symbol3": 5
+        },
+        "var352": {
+          "symbol1": 5,
+          "symbol2": 4,
+          "symbol3": 8
+        },
+        "var353": {
+          "symbol1": 5,
+          "symbol2": 8,
+          "symbol3": 4
+        },
+        "var354": {
+          "symbol1": 4,
+          "symbol2": 5,
+          "symbol3": 8
+        },
+        "var355": {
+          "symbol1": 4,
+          "symbol2": 8,
+          "symbol3": 5
+        },
+        "var356": {
+          "symbol1": 8,
+          "symbol2": 5,
+          "symbol3": 4
+        },
+        "var357": {
+          "symbol1": 8,
+          "symbol2": 4,
+          "symbol3": 5
+        },
+        "var358": {
+          "symbol1": 5,
+          "symbol2": 7,
+          "symbol3": 8
+        },
+        "var359": {
+          "symbol1": 5,
+          "symbol2": 8,
+          "symbol3": 7
+        },
+        "var360": {
+          "symbol1": 7,
+          "symbol2": 5,
+          "symbol3": 8
+        },
+        "var361": {
+          "symbol1": 7,
+          "symbol2": 8,
+          "symbol3": 5
+        },
+        "var362": {
+          "symbol1": 8,
+          "symbol2": 5,
+          "symbol3": 7
+        },
+        "var363": {
+          "symbol1": 8,
+          "symbol2": 7,
+          "symbol3": 5
+        },
+        "var364": {
+          "symbol1": 5,
+          "symbol2": 5,
+          "symbol3": 5
+        },
+        "var365": {
+          "symbol1": 7,
+          "symbol2": 2,
+          "symbol3": 3
+        },
+        "var366": {
+          "symbol1": 7,
+          "symbol2": 3,
+          "symbol3": 2
+        },
+        "var367": {
+          "symbol1": 2,
+          "symbol2": 7,
+          "symbol3": 3
+        },
+        "var368": {
+          "symbol1": 2,
+          "symbol2": 3,
+          "symbol3": 7
+        },
+        "var369": {
+          "symbol1": 3,
+          "symbol2": 7,
+          "symbol3": 2
+        },
+        "var370": {
+          "symbol1": 3,
+          "symbol2": 2,
+          "symbol3": 7
+        },
+        "var371": {
+          "symbol1": 7,
+          "symbol2": 2,
+          "symbol3": 4
+        },
+        "var372": {
+          "symbol1": 7,
+          "symbol2": 4,
+          "symbol3": 2
+        },
+        "var373": {
+          "symbol1": 2,
+          "symbol2": 7,
+          "symbol3": 4
+        },
+        "var374": {
+          "symbol1": 2,
+          "symbol2": 4,
+          "symbol3": 7
+        },
+        "var375": {
+          "symbol1": 4,
+          "symbol2": 7,
+          "symbol3": 2
+        },
+        "var376": {
+          "symbol1": 4,
+          "symbol2": 2,
+          "symbol3": 7
+        },
+        "var377": {
+          "symbol1": 7,
+          "symbol2": 2,
+          "symbol3": 5
+        },
+        "var378": {
+          "symbol1": 7,
+          "symbol2": 5,
+          "symbol3": 2
+        },
+        "var379": {
+          "symbol1": 2,
+          "symbol2": 7,
+          "symbol3": 5
+        },
+        "var380": {
+          "symbol1": 2,
+          "symbol2": 5,
+          "symbol3": 7
+        },
+        "var381": {
+          "symbol1": 5,
+          "symbol2": 7,
+          "symbol3": 2
+        },
+        "var382": {
+          "symbol1": 5,
+          "symbol2": 2,
+          "symbol3": 7
+        },
+        "var383": {
+          "symbol1": 7,
+          "symbol2": 2,
+          "symbol3": 8
+        },
+        "var384": {
+          "symbol1": 7,
+          "symbol2": 8,
+          "symbol3": 2
+        },
+        "var385": {
+          "symbol1": 2,
+          "symbol2": 7,
+          "symbol3": 8
+        },
+        "var386": {
+          "symbol1": 2,
+          "symbol2": 8,
+          "symbol3": 7
+        },
+        "var387": {
+          "symbol1": 8,
+          "symbol2": 7,
+          "symbol3": 2
+        },
+        "var388": {
+          "symbol1": 8,
+          "symbol2": 2,
+          "symbol3": 7
+        },
+        "var389": {
+          "symbol1": 7,
+          "symbol2": 3,
+          "symbol3": 4
+        },
+        "var390": {
+          "symbol1": 7,
+          "symbol2": 4,
+          "symbol3": 3
+        },
+        "var391": {
+          "symbol1": 3,
+          "symbol2": 7,
+          "symbol3": 4
+        },
+        "var392": {
+          "symbol1": 3,
+          "symbol2": 4,
+          "symbol3": 7
+        },
+        "var393": {
+          "symbol1": 4,
+          "symbol2": 7,
+          "symbol3": 3
+        },
+        "var394": {
+          "symbol1": 4,
+          "symbol2": 3,
+          "symbol3": 7
+        },
+        "var395": {
+          "symbol1": 7,
+          "symbol2": 3,
+          "symbol3": 5
+        },
+        "var396": {
+          "symbol1": 7,
+          "symbol2": 5,
+          "symbol3": 3
+        },
+        "var397": {
+          "symbol1": 3,
+          "symbol2": 7,
+          "symbol3": 5
+        },
+        "var398": {
+          "symbol1": 3,
+          "symbol2": 5,
+          "symbol3": 7
+        },
+        "var399": {
+          "symbol1": 5,
+          "symbol2": 7,
+          "symbol3": 3
+        },
+        "var400": {
+          "symbol1": 5,
+          "symbol2": 3,
+          "symbol3": 7
+        },
+        "var401": {
+          "symbol1": 7,
+          "symbol2": 3,
+          "symbol3": 8
+        },
+        "var402": {
+          "symbol1": 7,
+          "symbol2": 8,
+          "symbol3": 3
+        },
+        "var403": {
+          "symbol1": 3,
+          "symbol2": 7,
+          "symbol3": 8
+        },
+        "var404": {
+          "symbol1": 3,
+          "symbol2": 8,
+          "symbol3": 7
+        },
+        "var405": {
+          "symbol1": 8,
+          "symbol2": 7,
+          "symbol3": 3
+        },
+        "var406": {
+          "symbol1": 8,
+          "symbol2": 3,
+          "symbol3": 7
+        },
+        "var407": {
+          "symbol1": 7,
+          "symbol2": 4,
+          "symbol3": 5
+        },
+        "var408": {
+          "symbol1": 7,
+          "symbol2": 5,
+          "symbol3": 4
+        },
+        "var409": {
+          "symbol1": 4,
+          "symbol2": 7,
+          "symbol3": 5
+        },
+        "var410": {
+          "symbol1": 4,
+          "symbol2": 5,
+          "symbol3": 7
+        },
+        "var411": {
+          "symbol1": 5,
+          "symbol2": 7,
+          "symbol3": 4
+        },
+        "var412": {
+          "symbol1": 5,
+          "symbol2": 4,
+          "symbol3": 7
+        },
+        "var413": {
+          "symbol1": 7,
+          "symbol2": 4,
+          "symbol3": 8
+        },
+        "var414": {
+          "symbol1": 7,
+          "symbol2": 8,
+          "symbol3": 4
+        },
+        "var415": {
+          "symbol1": 4,
+          "symbol2": 7,
+          "symbol3": 8
+        },
+        "var416": {
+          "symbol1": 4,
+          "symbol2": 8,
+          "symbol3": 7
+        },
+        "var417": {
+          "symbol1": 8,
+          "symbol2": 7,
+          "symbol3": 4
+        },
+        "var418": {
+          "symbol1": 8,
+          "symbol2": 4,
+          "symbol3": 7
+        },
+        "var419": {
+          "symbol1": 7,
+          "symbol2": 5,
+          "symbol3": 8
+        },
+        "var420": {
+          "symbol1": 7,
+          "symbol2": 8,
+          "symbol3": 5
+        },
+        "var421": {
+          "symbol1": 5,
+          "symbol2": 7,
+          "symbol3": 8
+        },
+        "var422": {
+          "symbol1": 5,
+          "symbol2": 8,
+          "symbol3": 7
+        },
+        "var423": {
+          "symbol1": 8,
+          "symbol2": 7,
+          "symbol3": 5
+        },
+        "var424": {
+          "symbol1": 8,
+          "symbol2": 5,
+          "symbol3": 7
+        },
+        "var425": {
+          "symbol1": 7,
+          "symbol2": 7,
+          "symbol3": 7
+        },
+        "var426": {
+          "symbol1": 8,
+          "symbol2": 2,
+          "symbol3": 3
+        },
+        "var427": {
+          "symbol1": 8,
+          "symbol2": 3,
+          "symbol3": 2
+        },
+        "var428": {
+          "symbol1": 2,
+          "symbol2": 8,
+          "symbol3": 3
+        },
+        "var429": {
+          "symbol1": 2,
+          "symbol2": 3,
+          "symbol3": 8
+        },
+        "var430": {
+          "symbol1": 3,
+          "symbol2": 8,
+          "symbol3": 2
+        },
+        "var431": {
+          "symbol1": 3,
+          "symbol2": 2,
+          "symbol3": 8
+        },
+        "var432": {
+          "symbol1": 8,
+          "symbol2": 2,
+          "symbol3": 4
+        },
+        "var433": {
+          "symbol1": 8,
+          "symbol2": 4,
+          "symbol3": 2
+        },
+        "var434": {
+          "symbol1": 2,
+          "symbol2": 8,
+          "symbol3": 4
+        },
+        "var435": {
+          "symbol1": 2,
+          "symbol2": 4,
+          "symbol3": 8
+        },
+        "var436": {
+          "symbol1": 4,
+          "symbol2": 8,
+          "symbol3": 2
+        },
+        "var437": {
+          "symbol1": 4,
+          "symbol2": 2,
+          "symbol3": 8
+        },
+        "var438": {
+          "symbol1": 8,
+          "symbol2": 2,
+          "symbol3": 5
+        },
+        "var439": {
+          "symbol1": 8,
+          "symbol2": 5,
+          "symbol3": 2
+        },
+        "var440": {
+          "symbol1": 2,
+          "symbol2": 8,
+          "symbol3": 5
+        },
+        "var441": {
+          "symbol1": 2,
+          "symbol2": 5,
+          "symbol3": 8
+        },
+        "var442": {
+          "symbol1": 5,
+          "symbol2": 8,
+          "symbol3": 2
+        },
+        "var443": {
+          "symbol1": 5,
+          "symbol2": 2,
+          "symbol3": 8
+        },
+        "var444": {
+          "symbol1": 8,
+          "symbol2": 2,
+          "symbol3": 7
+        },
+        "var445": {
+          "symbol1": 8,
+          "symbol2": 7,
+          "symbol3": 2
+        },
+        "var446": {
+          "symbol1": 2,
+          "symbol2": 8,
+          "symbol3": 7
+        },
+        "var447": {
+          "symbol1": 2,
+          "symbol2": 7,
+          "symbol3": 8
+        },
+        "var448": {
+          "symbol1": 7,
+          "symbol2": 8,
+          "symbol3": 2
+        },
+        "var449": {
+          "symbol1": 7,
+          "symbol2": 2,
+          "symbol3": 8
+        },
+        "var450": {
+          "symbol1": 8,
+          "symbol2": 3,
+          "symbol3": 4
+        },
+        "var451": {
+          "symbol1": 8,
+          "symbol2": 4,
+          "symbol3": 3
+        },
+        "var452": {
+          "symbol1": 3,
+          "symbol2": 8,
+          "symbol3": 4
+        },
+        "var453": {
+          "symbol1": 3,
+          "symbol2": 4,
+          "symbol3": 8
+        },
+        "var454": {
+          "symbol1": 4,
+          "symbol2": 8,
+          "symbol3": 3
+        },
+        "var455": {
+          "symbol1": 4,
+          "symbol2": 3,
+          "symbol3": 8
+        },
+        "var456": {
+          "symbol1": 8,
+          "symbol2": 3,
+          "symbol3": 5
+        },
+        "var457": {
+          "symbol1": 8,
+          "symbol2": 5,
+          "symbol3": 3
+        },
+        "var458": {
+          "symbol1": 3,
+          "symbol2": 8,
+          "symbol3": 5
+        },
+        "var459": {
+          "symbol1": 3,
+          "symbol2": 5,
+          "symbol3": 8
+        },
+        "var460": {
+          "symbol1": 5,
+          "symbol2": 8,
+          "symbol3": 3
+        },
+        "var461": {
+          "symbol1": 5,
+          "symbol2": 3,
+          "symbol3": 8
+        },
+        "var462": {
+          "symbol1": 8,
+          "symbol2": 3,
+          "symbol3": 7
+        },
+        "var463": {
+          "symbol1": 8,
+          "symbol2": 7,
+          "symbol3": 3
+        },
+        "var464": {
+          "symbol1": 3,
+          "symbol2": 8,
+          "symbol3": 7
+        },
+        "var465": {
+          "symbol1": 3,
+          "symbol2": 7,
+          "symbol3": 8
+        },
+        "var466": {
+          "symbol1": 7,
+          "symbol2": 8,
+          "symbol3": 3
+        },
+        "var467": {
+          "symbol1": 7,
+          "symbol2": 3,
+          "symbol3": 8
+        },
+        "var468": {
+          "symbol1": 8,
+          "symbol2": 4,
+          "symbol3": 5
+        },
+        "var469": {
+          "symbol1": 8,
+          "symbol2": 5,
+          "symbol3": 4
+        },
+        "var470": {
+          "symbol1": 4,
+          "symbol2": 8,
+          "symbol3": 5
+        },
+        "var471": {
+          "symbol1": 4,
+          "symbol2": 5,
+          "symbol3": 8
+        },
+        "var472": {
+          "symbol1": 5,
+          "symbol2": 8,
+          "symbol3": 4
+        },
+        "var473": {
+          "symbol1": 5,
+          "symbol2": 4,
+          "symbol3": 8
+        },
+        "var474": {
+          "symbol1": 8,
+          "symbol2": 4,
+          "symbol3": 7
+        },
+        "var475": {
+          "symbol1": 8,
+          "symbol2": 7,
+          "symbol3": 4
+        },
+        "var476": {
+          "symbol1": 4,
+          "symbol2": 8,
+          "symbol3": 7
+        },
+        "var477": {
+          "symbol1": 4,
+          "symbol2": 7,
+          "symbol3": 8
+        },
+        "var478": {
+          "symbol1": 7,
+          "symbol2": 8,
+          "symbol3": 4
+        },
+        "var479": {
+          "symbol1": 7,
+          "symbol2": 4,
+          "symbol3": 8
+        },
+        "var480": {
+          "symbol1": 8,
+          "symbol2": 5,
+          "symbol3": 7
+        },
+        "var481": {
+          "symbol1": 8,
+          "symbol2": 7,
+          "symbol3": 5
+        },
+        "var482": {
+          "symbol1": 5,
+          "symbol2": 8,
+          "symbol3": 7
+        },
+        "var483": {
+          "symbol1": 5,
+          "symbol2": 7,
+          "symbol3": 8
+        },
+        "var484": {
+          "symbol1": 7,
+          "symbol2": 8,
+          "symbol3": 5
+        },
+        "var485": {
+          "symbol1": 7,
+          "symbol2": 5,
+          "symbol3": 8
+        },
+        "var486": {
+          "symbol1": 8,
+          "symbol2": 8,
+          "symbol3": 8
+        }
+      },
+      "slotmachine_event_start": "2025-10-01 00:00:00",
+      "slotmachine_event_end": "2025-10-07 23:59:59",
+      "global_tournament_rewards": null,
+      "sidekick_skills": null,
+      "tower_manager_effects": null,
+      "legendary_dungeon_room_types": null,
+      "hideout_rooms": null,
+      "tower_event_environment_styles": null,
+      "legendary_dungeon_global_mod": null,
+      "guild_stat_character_base_stats_boost_costs": null,
+      "legendary_dungeon_room_spines": null,
+      "tower_manager_names": null,
+      "legendary_dungeon_rooms": null,
+      "tower_vault_manager_outfits": null,
+      "guild_artifacts": null,
+      "warforged_infos": null,
+      "guild_battle_tactics": null,
+      "item_set_templates": null,
+      "tower_floor_styles": null,
+      "seasons": null,
+      "tower_event_vault_levels": null,
+      "herobook_items": null,
+      "guild_competition_items": null,
+      "tower_floor_workers_styles": null,
+      "herobook_weekly_rewards": null,
+      "npcs": null,
+      "tower_elevator_worker_styles": null,
+      "legendary_dungeon_decor_spines": null,
+      "towers": null,
+      "event_treasure_locations": null,
+      "dungeon_templates": null,
+      "dungeon_hardmode_templates": null,
+      "tower_manager_costs": null,
+      "item_effects": null,
+      "tower_elevator_worker_outfits": null,
+      "tournament_rewards": null,
+      "guildbook_objectives": null,
+      "legendary_dungeon_buffs": null,
+      "season_locations": null,
+      "tower_item_durations": null,
+      "tower_manager_rarities": null,
+      "guild_stat_guild_capacity_costs": null,
+      "event_quests": null,
+      "optical_change_categories": null,
+      "tower_booster_shop_offers": null,
+      "tower_boosters": null,
+      "item_improvements_chance": null,
+      "guildbook_rewards": null,
+      "guildbook_objective_types": null,
+      "guild_background_layers": null,
+      "tower_floor_manager_styles": null,
+      "tower_event_elevator_levels": null,
+      "guild_emblem_icons": null,
+      "sidekick_data": null,
+      "worldboss_event_templates": null,
+      "profanity": null,
+      "guild_boosters": null,
+      "guild_stat_quest_game_currency_reward_boost_costs": null,
+      "hints": null,
+      "event_draw_pools": null,
+      "guild_arena_backgrounds": null,
+      "story_dungeon_items": null,
+      "legendary_dungeon_boss_decors": null,
+      "story_dungeons": null,
+      "tower_styles": null,
+      "guild_battle_attack_cost": null,
+      "dungeon_quest_templates": null,
+      "hideout_units": null,
+      "league_divisions": null,
+      "sidekick_levels": null,
+      "guild_emblem_backgrounds": null,
+      "event_items": null,
+      "tower_event_floor_levels": null,
+      "tower_vault_manager_styles": null,
+      "item_templates": null,
+      "worldboss_event_rewards": null,
+      "emoticons": null,
+      "item_pattern": null,
+      "titles": null,
+      "guild_competitions": null,
+      "guildbook_items": null,
+      "quest_templates": null,
+      "tower_objective_tasks": null,
+      "tower_floor_worker_outfits": null,
+      "herobook_daily_rewards": null,
+      "tower_floor_manager_outfits": null,
+      "tower_elevator_manager_styles": null,
+      "tower_booster_gacha_packages": null,
+      "event_treasures": null,
+      "optical_changes": null,
+      "training_quest_templates": null,
+      "tower_vault_worker_outfits": null,
+      "legendary_dungeons": null,
+      "goals": null,
+      "guild_stat_quest_xp_reward_boost_costs": null,
+      "tower_elevator_manager_outfits": null,
+      "legendary_dungeon_floor_decors": null,
+      "levels": null,
+      "legendary_dungeon_door_types": null,
+      "tower_event_tower_objectives": null,
+      "tower_vault_worker_styles": null,
+      "hideout_room_blacksmith_product": null,
+      "herobook_objective_types": null,
+      "training_ratings": null,
+      "hideout_room_upgrade": null,
+      "daily_login_rewards": null,
+      "guild_emblem_colors": null,
+      "hideout_expansion": null,
+      "hidden_object_event_quests": null,
+      "tower_events": null,
+      "training_settings": null,
+      "item_improvements": null,
+      "training_special_rewards": null,
+      "legendary_dungeon_debuffs": null,
+      "tower_event_regions": null,
+      "training_durations": null,
+      "guildbook_objective_durations": null,
+      "guild_dungeon_attack_cost": null,
+      "optical_change_effects": null,
+      "battle_effects": null,
+      "tower_items": null,
+      "guild_rewards": null,
+      "boosters": null,
+      "legendary_dungeon_room_decors": null,
+      "tower_event_objectives": null,
+      "hideout_room_blacksmith_items": null,
+      "herobook_objectives": null,
+      "character_appearances": null,
+      "stages": null
+    },
+    "user": {
+      "id": 288,
+      "registration_source": "ref=;subid=;lp=;",
+      "ref": "",
+      "subid": "",
+      "ts_creation": 1759353156,
+      "network": "discord",
+      "app_version": "245",
+      "app_version_registration": "245",
+      "device_type": 4,
+      "confirmed": true,
+      "email": "discord_curvu6@gmail.com",
+      "login_count": 13,
+      "session_id": "LsFlziJJR84TbXHbSVv4CNwF90bchl",
+      "locale": "pt_PT",
+      "premium_currency": 2,
+      "blocked_premium_currency": 0,
+      "geo_country_code": "PT",
+      "settings": "{\"auto_logoff\":false,\"tos_jan2025\":true,\"pp_jan2025\":true,\"background_option_character\":\"default\",\"background_option_duel_defense\":\"default\",\"background_option_league_defense\":\"default\",\"background_option_other_fights\":\"default\",\"patch_update\":245,\"hideout_generator_cleanup\":true,\"collect_goal_titles\":true,\"outfit_mission_split\":true,\"bin_2025-10-05\":true,\"ign_autumn_season_starts\":[1759353546],\"ign_buffalo_season_set_sale\":[1759353523],\"ign_server_launch_2025_october\":[1759353377],\"ign_future_treasure\":[1759563141]}",
+      "status": 1,
+      "trusted": false,
+      "ts_tos_accepted": 1759353156,
+      "ts_pp_accepted": 1759353156
+    },
+    "character": {
+      "id": 288,
+      "user_id": 288,
+      "name": "JoyfulShieldbearer",
+      "locale": "pt_PT",
+      "gender": "m",
+      "title": "",
+      "game_currency": 976,
+      "xp": 24226,
+      "level": 11,
+      "description": "",
+      "note": "",
+      "ts_last_action": 1759698222,
+      "online_status": 1,
+      "score_honor": 3570011,
+      "score_level": 1100000357,
+      "stat_points_available": 19,
+      "stat_base_stamina": 31,
+      "stat_base_strength": 10,
+      "stat_base_critical_rating": 10,
+      "stat_base_dodge_rating": 14,
+      "stat_total_stamina": 32,
+      "stat_total_strength": 11,
+      "stat_total_critical_rating": 11,
+      "stat_total_dodge_rating": 15,
+      "stat_weapon_damage": 0,
+      "stat_total": 69,
+      "stat_bought_stamina": 0,
+      "stat_bought_strength": 0,
+      "stat_bought_critical_rating": 0,
+      "stat_bought_dodge_rating": 0,
+      "active_quest_booster_id": "booster_quest3",
+      "ts_active_quest_boost_expires": 1760044633,
+      "active_stats_booster_id": "",
+      "ts_active_stats_boost_expires": 0,
+      "active_work_booster_id": "",
+      "ts_active_work_boost_expires": 0,
+      "ts_active_sense_boost_expires": 0,
+      "active_league_booster_id": "",
+      "ts_active_league_boost_expires": 0,
+      "ts_active_multitasking_boost_expires": 0,
+      "ts_active_training_sense_boost_expires": 0,
+      "max_quest_stage": 2,
+      "current_quest_stage": 2,
+      "quest_energy": 100,
+      "max_quest_energy": 100,
+      "ts_last_quest_energy_refill": 1759673135,
+      "quest_energy_refill_amount_today": 0,
+      "quest_reward_training_sessions_rewarded_today": 0,
+      "active_quest_id": 0,
+      "quest_pool": "{\"1\":[260403,260404,260405],\"2\":[260406,260407,260408]}",
+      "honor": 357,
+      "ts_last_duel": 1759353560,
+      "active_duel_id": 0,
+      "duel_stamina": 100,
+      "max_duel_stamina": 100,
+      "ts_last_duel_stamina_change": 1759673135,
+      "duel_stamina_cost": 20,
+      "ts_last_duel_enemies_refresh": 0,
+      "current_work_offer_id": "work2",
+      "active_work_id": 0,
+      "active_training_id": 0,
+      "training_pool": "[50633,50634,50635,50636]",
+      "ts_last_training_finished": 1759567359,
+      "ts_last_training_refresh": 0,
+      "training_energy": 30,
+      "max_training_energy": 30,
+      "ts_last_training_energy_change": 1759570189,
+      "stat_trained_stamina": 0,
+      "stat_trained_strength": 0,
+      "stat_trained_critical_rating": 0,
+      "stat_trained_dodge_rating": 3,
+      "training_count": 10,
+      "max_training_count": 10,
+      "active_worldboss_attack_id": 0,
+      "active_dungeon_quest_id": 0,
+      "ts_last_dungeon_quest_fail": 0,
+      "max_dungeon_index": 0,
+      "appearance_skin_color": 1,
+      "appearance_hair_color": 1,
+      "appearance_hair_type": 51,
+      "appearance_head_type": 4,
+      "appearance_eyes_type": 8,
+      "appearance_eyebrows_type": 7,
+      "appearance_nose_type": 4,
+      "appearance_mouth_type": 1,
+      "appearance_facial_hair_type": 0,
+      "appearance_decoration_type": 0,
+      "show_mask": true,
+      "show_cape": true,
+      "tutorial_flags": "{\"itemImprovementsUpdate\":true,\"first_visit\":true,\"mission_shown\":true,\"first_mission_opened\":true,\"first_mission_started\":true,\"first_mission\":true,\"stats_spent\":true,\"shop_shown\":true,\"first_item\":true,\"duel_shown\":true,\"first_duel\":true,\"tutorial_finished\":true,\"tutorial_resource_quest\":true,\"social_media\":true,\"fast_play\":true,\"tutorial_tv_quest\":true,\"info_fight_settings_shown\":true,\"training_new\":true,\"story_dungeon\":true,\"marketing_optin\":true}",
+      "guild_id": 7,
+      "guild_rank": 1,
+      "finished_guild_battle_attack_id": 0,
+      "finished_guild_battle_defense_id": 33,
+      "finished_guild_dungeon_battle_id": 0,
+      "guild_donated_game_currency": 0,
+      "guild_donated_premium_currency": 0,
+      "guild_competition_points_gathered": 0,
+      "pending_guild_competition_tournament_rewards": 0,
+      "new_guild_competition_tournament": false,
+      "pending_solo_guild_competition_tournament_rewards": 0,
+      "guild_synergy_updated": false,
+      "unread_mass_system_messages": 0,
+      "friend_messages_only": false,
+      "worldboss_event_id": 0,
+      "worldboss_event_attack_count": 0,
+      "ts_last_wash_item": 0,
+      "ts_last_daily_login_bonus": 1759673438,
+      "daily_login_bonus_day": 4,
+      "pending_tournament_rewards": 1,
+      "pending_global_tournament_rewards": 0,
+      "ts_last_shop_refresh": 0,
+      "max_free_shop_refreshes": 1,
+      "shop_refreshes": 0,
+      "event_quest_id": 140,
+      "hidden_object_event_quest_id": 0,
+      "draw_event_id": 0,
+      "treasure_event_id": 103,
+      "legendary_dungeon_id": 0,
+      "friend_data": "",
+      "unused_resources": "{\"1\":0,\"2\":1}",
+      "used_resources": "",
+      "league_points": 0,
+      "league_group_id": 0,
+      "active_league_fight_id": 0,
+      "ts_last_league_fight": 0,
+      "league_fight_count": 0,
+      "league_opponents": "",
+      "ts_last_league_opponents_refresh": 0,
+      "league_stamina": 20,
+      "max_league_stamina": 20,
+      "ts_last_league_stamina_change": 1759698222,
+      "league_stamina_cost": 20,
+      "pending_league_tournament_rewards": 0,
+      "herobook_objectives_renewed_today": 0,
+      "current_slotmachine_spin": 0,
+      "slotmachine_spin_count": 0,
+      "ts_last_slotmachine_refill": 1759673135,
+      "new_user_voucher_ids": "[]",
+      "current_energy_storage": 50,
+      "current_training_storage": 5,
+      "active_story_dungeon_attack_id": 0,
+      "storygoal": "",
+      "active_season_progress_id": 201
+    },
+    "user_geo_location": "PT",
+    "debug_field": "HelloWorld!",
+    "has_marketing_email": false,
+    "inventory": {
+      "id": 201,
+      "character_id": 288,
+      "mask_item_id": 0,
+      "cape_item_id": 0,
+      "suit_item_id": 0,
+      "belt_item_id": 0,
+      "boots_item_id": 0,
+      "weapon_item_id": 0,
+      "gadget_item_id": 0,
+      "missiles_item_id": 95105,
+      "missiles1_item_id": -1,
+      "missiles2_item_id": -1,
+      "missiles3_item_id": -1,
+      "missiles4_item_id": -1,
+      "sidekick_id": 0,
+      "bag_item1_id": 95194,
+      "bag_item2_id": 0,
+      "bag_item3_id": 0,
+      "bag_item4_id": 0,
+      "bag_item5_id": 0,
+      "bag_item6_id": 0,
+      "bag_item7_id": 0,
+      "bag_item8_id": 0,
+      "bag_item9_id": 0,
+      "bag_item10_id": 0,
+      "bag_item11_id": 0,
+      "bag_item12_id": 0,
+      "bag_item13_id": 0,
+      "bag_item14_id": 0,
+      "bag_item15_id": 0,
+      "bag_item16_id": 0,
+      "bag_item17_id": 0,
+      "bag_item18_id": 0,
+      "shop_item1_id": 26886,
+      "shop_item2_id": 26887,
+      "shop_item3_id": 26888,
+      "shop_item4_id": 26889,
+      "shop_item5_id": 26890,
+      "shop_item6_id": 26891,
+      "shop_item7_id": 26892,
+      "shop_item8_id": 26893,
+      "shop_item9_id": 26894,
+      "shop2_item1_id": 0,
+      "shop2_item2_id": 0,
+      "shop2_item3_id": 0,
+      "shop2_item4_id": 0,
+      "shop2_item5_id": 0,
+      "shop2_item6_id": 0,
+      "shop2_item7_id": 0,
+      "shop2_item8_id": 0,
+      "shop2_item9_id": 0,
+      "item_set_data": "",
+      "sidekick_data": ""
+    },
+    "bank_inventory": {
+      "id": 201,
+      "character_id": 288,
+      "max_bank_index": 0,
+      "locked_item_ids": "",
+      "bank_item1_id": 0,
+      "bank_item2_id": 0,
+      "bank_item3_id": 0,
+      "bank_item4_id": 0,
+      "bank_item5_id": 0,
+      "bank_item6_id": 0,
+      "bank_item7_id": 0,
+      "bank_item8_id": 0,
+      "bank_item9_id": 0,
+      "bank_item10_id": 0,
+      "bank_item11_id": 0,
+      "bank_item12_id": 0,
+      "bank_item13_id": 0,
+      "bank_item14_id": 0,
+      "bank_item15_id": 0,
+      "bank_item16_id": 0,
+      "bank_item17_id": 0,
+      "bank_item18_id": 0,
+      "bank_item19_id": 0,
+      "bank_item20_id": 0,
+      "bank_item21_id": 0,
+      "bank_item22_id": 0,
+      "bank_item23_id": 0,
+      "bank_item24_id": 0,
+      "bank_item25_id": 0,
+      "bank_item26_id": 0,
+      "bank_item27_id": 0,
+      "bank_item28_id": 0,
+      "bank_item29_id": 0,
+      "bank_item30_id": 0,
+      "bank_item31_id": 0,
+      "bank_item32_id": 0,
+      "bank_item33_id": 0,
+      "bank_item34_id": 0,
+      "bank_item35_id": 0,
+      "bank_item36_id": 0,
+      "bank_item37_id": 0,
+      "bank_item38_id": 0,
+      "bank_item39_id": 0,
+      "bank_item40_id": 0,
+      "bank_item41_id": 0,
+      "bank_item42_id": 0,
+      "bank_item43_id": 0,
+      "bank_item44_id": 0,
+      "bank_item45_id": 0,
+      "bank_item46_id": 0,
+      "bank_item47_id": 0,
+      "bank_item48_id": 0,
+      "bank_item49_id": 0,
+      "bank_item50_id": 0,
+      "bank_item51_id": 0,
+      "bank_item52_id": 0,
+      "bank_item53_id": 0,
+      "bank_item54_id": 0,
+      "bank_item55_id": 0,
+      "bank_item56_id": 0,
+      "bank_item57_id": 0,
+      "bank_item58_id": 0,
+      "bank_item59_id": 0,
+      "bank_item60_id": 0,
+      "bank_item61_id": 0,
+      "bank_item62_id": 0,
+      "bank_item63_id": 0,
+      "bank_item64_id": 0,
+      "bank_item65_id": 0,
+      "bank_item66_id": 0,
+      "bank_item67_id": 0,
+      "bank_item68_id": 0,
+      "bank_item69_id": 0,
+      "bank_item70_id": 0,
+      "bank_item71_id": 0,
+      "bank_item72_id": 0,
+      "bank_item73_id": 0,
+      "bank_item74_id": 0,
+      "bank_item75_id": 0,
+      "bank_item76_id": 0,
+      "bank_item77_id": 0,
+      "bank_item78_id": 0,
+      "bank_item79_id": 0,
+      "bank_item80_id": 0,
+      "bank_item81_id": 0,
+      "bank_item82_id": 0,
+      "bank_item83_id": 0,
+      "bank_item84_id": 0,
+      "bank_item85_id": 0,
+      "bank_item86_id": 0,
+      "bank_item87_id": 0,
+      "bank_item88_id": 0,
+      "bank_item89_id": 0,
+      "bank_item90_id": 0,
+      "bank_item91_id": 0,
+      "bank_item92_id": 0,
+      "bank_item93_id": 0,
+      "bank_item94_id": 0,
+      "bank_item95_id": 0,
+      "bank_item96_id": 0,
+      "bank_item97_id": 0,
+      "bank_item98_id": 0,
+      "bank_item99_id": 0,
+      "bank_item100_id": 0,
+      "bank_item101_id": 0,
+      "bank_item102_id": 0,
+      "bank_item103_id": 0,
+      "bank_item104_id": 0,
+      "bank_item105_id": 0,
+      "bank_item106_id": 0,
+      "bank_item107_id": 0,
+      "bank_item108_id": 0,
+      "bank_item109_id": 0,
+      "bank_item110_id": 0,
+      "bank_item111_id": 0,
+      "bank_item112_id": 0,
+      "bank_item113_id": 0,
+      "bank_item114_id": 0,
+      "bank_item115_id": 0,
+      "bank_item116_id": 0,
+      "bank_item117_id": 0,
+      "bank_item118_id": 0,
+      "bank_item119_id": 0,
+      "bank_item120_id": 0,
+      "bank_item121_id": 0,
+      "bank_item122_id": 0,
+      "bank_item123_id": 0,
+      "bank_item124_id": 0,
+      "bank_item125_id": 0,
+      "bank_item126_id": 0,
+      "bank_item127_id": 0,
+      "bank_item128_id": 0,
+      "bank_item129_id": 0,
+      "bank_item130_id": 0,
+      "bank_item131_id": 0,
+      "bank_item132_id": 0,
+      "bank_item133_id": 0,
+      "bank_item134_id": 0,
+      "bank_item135_id": 0,
+      "bank_item136_id": 0,
+      "bank_item137_id": 0,
+      "bank_item138_id": 0,
+      "bank_item139_id": 0,
+      "bank_item140_id": 0,
+      "bank_item141_id": 0,
+      "bank_item142_id": 0,
+      "bank_item143_id": 0,
+      "bank_item144_id": 0,
+      "bank_item145_id": 0,
+      "bank_item146_id": 0,
+      "bank_item147_id": 0,
+      "bank_item148_id": 0,
+      "bank_item149_id": 0,
+      "bank_item150_id": 0,
+      "bank_item151_id": 0,
+      "bank_item152_id": 0,
+      "bank_item153_id": 0,
+      "bank_item154_id": 0,
+      "bank_item155_id": 0,
+      "bank_item156_id": 0,
+      "bank_item157_id": 0,
+      "bank_item158_id": 0,
+      "bank_item159_id": 0,
+      "bank_item160_id": 0,
+      "bank_item161_id": 0,
+      "bank_item162_id": 0,
+      "bank_item163_id": 0,
+      "bank_item164_id": 0,
+      "bank_item165_id": 0,
+      "bank_item166_id": 0,
+      "bank_item167_id": 0,
+      "bank_item168_id": 0,
+      "bank_item169_id": 0,
+      "bank_item170_id": 0,
+      "bank_item171_id": 0,
+      "bank_item172_id": 0,
+      "bank_item173_id": 0,
+      "bank_item174_id": 0,
+      "bank_item175_id": 0,
+      "bank_item176_id": 0,
+      "bank_item177_id": 0,
+      "bank_item178_id": 0,
+      "bank_item179_id": 0,
+      "bank_item180_id": 0,
+      "bank_item181_id": 0,
+      "bank_item182_id": 0,
+      "bank_item183_id": 0,
+      "bank_item184_id": 0,
+      "bank_item185_id": 0,
+      "bank_item186_id": 0,
+      "bank_item187_id": 0,
+      "bank_item188_id": 0,
+      "bank_item189_id": 0,
+      "bank_item190_id": 0,
+      "bank_item191_id": 0,
+      "bank_item192_id": 0,
+      "bank_item193_id": 0,
+      "bank_item194_id": 0,
+      "bank_item195_id": 0,
+      "bank_item196_id": 0,
+      "bank_item197_id": 0,
+      "bank_item198_id": 0,
+      "bank_item199_id": 0,
+      "bank_item200_id": 0,
+      "bank_item201_id": 0,
+      "bank_item202_id": 0,
+      "bank_item203_id": 0,
+      "bank_item204_id": 0,
+      "bank_item205_id": 0,
+      "bank_item206_id": 0,
+      "bank_item207_id": 0,
+      "bank_item208_id": 0,
+      "bank_item209_id": 0,
+      "bank_item210_id": 0,
+      "bank_item211_id": 0,
+      "bank_item212_id": 0,
+      "bank_item213_id": 0,
+      "bank_item214_id": 0,
+      "bank_item215_id": 0,
+      "bank_item216_id": 0,
+      "bank_item217_id": 0,
+      "bank_item218_id": 0,
+      "bank_item219_id": 0,
+      "bank_item220_id": 0,
+      "bank_item221_id": 0,
+      "bank_item222_id": 0,
+      "bank_item223_id": 0,
+      "bank_item224_id": 0,
+      "bank_item225_id": 0,
+      "bank_item226_id": 0,
+      "bank_item227_id": 0,
+      "bank_item228_id": 0,
+      "bank_item229_id": 0,
+      "bank_item230_id": 0,
+      "bank_item231_id": 0,
+      "bank_item232_id": 0,
+      "bank_item233_id": 0,
+      "bank_item234_id": 0,
+      "bank_item235_id": 0,
+      "bank_item236_id": 0,
+      "bank_item237_id": 0,
+      "bank_item238_id": 0,
+      "bank_item239_id": 0,
+      "bank_item240_id": 0,
+      "bank_item241_id": 0,
+      "bank_item242_id": 0,
+      "bank_item243_id": 0,
+      "bank_item244_id": 0,
+      "bank_item245_id": 0,
+      "bank_item246_id": 0,
+      "bank_item247_id": 0,
+      "bank_item248_id": 0,
+      "bank_item249_id": 0,
+      "bank_item250_id": 0,
+      "bank_item251_id": 0,
+      "bank_item252_id": 0,
+      "bank_item253_id": 0,
+      "bank_item254_id": 0,
+      "bank_item255_id": 0,
+      "bank_item256_id": 0,
+      "bank_item257_id": 0,
+      "bank_item258_id": 0,
+      "bank_item259_id": 0,
+      "bank_item260_id": 0,
+      "bank_item261_id": 0,
+      "bank_item262_id": 0,
+      "bank_item263_id": 0,
+      "bank_item264_id": 0,
+      "bank_item265_id": 0,
+      "bank_item266_id": 0,
+      "bank_item267_id": 0,
+      "bank_item268_id": 0,
+      "bank_item269_id": 0,
+      "bank_item270_id": 0,
+      "bank_item271_id": 0,
+      "bank_item272_id": 0,
+      "bank_item273_id": 0,
+      "bank_item274_id": 0,
+      "bank_item275_id": 0,
+      "bank_item276_id": 0,
+      "bank_item277_id": 0,
+      "bank_item278_id": 0,
+      "bank_item279_id": 0,
+      "bank_item280_id": 0,
+      "bank_item281_id": 0,
+      "bank_item282_id": 0,
+      "bank_item283_id": 0,
+      "bank_item284_id": 0,
+      "bank_item285_id": 0,
+      "bank_item286_id": 0,
+      "bank_item287_id": 0,
+      "bank_item288_id": 0,
+      "bank_item289_id": 0,
+      "bank_item290_id": 0,
+      "bank_item291_id": 0,
+      "bank_item292_id": 0,
+      "bank_item293_id": 0,
+      "bank_item294_id": 0,
+      "bank_item295_id": 0,
+      "bank_item296_id": 0,
+      "bank_item297_id": 0,
+      "bank_item298_id": 0,
+      "bank_item299_id": 0,
+      "bank_item300_id": 0,
+      "bank_item301_id": 0,
+      "bank_item302_id": 0,
+      "bank_item303_id": 0,
+      "bank_item304_id": 0,
+      "bank_item305_id": 0,
+      "bank_item306_id": 0,
+      "bank_item307_id": 0,
+      "bank_item308_id": 0,
+      "bank_item309_id": 0,
+      "bank_item310_id": 0,
+      "bank_item311_id": 0,
+      "bank_item312_id": 0,
+      "bank_item313_id": 0,
+      "bank_item314_id": 0,
+      "bank_item315_id": 0,
+      "bank_item316_id": 0,
+      "bank_item317_id": 0,
+      "bank_item318_id": 0,
+      "bank_item319_id": 0,
+      "bank_item320_id": 0,
+      "bank_item321_id": 0,
+      "bank_item322_id": 0,
+      "bank_item323_id": 0,
+      "bank_item324_id": 0,
+      "bank_item325_id": 0,
+      "bank_item326_id": 0,
+      "bank_item327_id": 0,
+      "bank_item328_id": 0,
+      "bank_item329_id": 0,
+      "bank_item330_id": 0,
+      "bank_item331_id": 0,
+      "bank_item332_id": 0,
+      "bank_item333_id": 0,
+      "bank_item334_id": 0,
+      "bank_item335_id": 0,
+      "bank_item336_id": 0,
+      "bank_item337_id": 0,
+      "bank_item338_id": 0,
+      "bank_item339_id": 0,
+      "bank_item340_id": 0,
+      "bank_item341_id": 0,
+      "bank_item342_id": 0,
+      "bank_item343_id": 0,
+      "bank_item344_id": 0,
+      "bank_item345_id": 0,
+      "bank_item346_id": 0,
+      "bank_item347_id": 0,
+      "bank_item348_id": 0,
+      "bank_item349_id": 0,
+      "bank_item350_id": 0,
+      "bank_item351_id": 0,
+      "bank_item352_id": 0,
+      "bank_item353_id": 0,
+      "bank_item354_id": 0,
+      "bank_item355_id": 0,
+      "bank_item356_id": 0,
+      "bank_item357_id": 0,
+      "bank_item358_id": 0,
+      "bank_item359_id": 0,
+      "bank_item360_id": 0,
+      "bank_item361_id": 0,
+      "bank_item362_id": 0,
+      "bank_item363_id": 0,
+      "bank_item364_id": 0,
+      "bank_item365_id": 0,
+      "bank_item366_id": 0,
+      "bank_item367_id": 0,
+      "bank_item368_id": 0,
+      "bank_item369_id": 0,
+      "bank_item370_id": 0,
+      "bank_item371_id": 0,
+      "bank_item372_id": 0,
+      "bank_item373_id": 0,
+      "bank_item374_id": 0,
+      "bank_item375_id": 0,
+      "bank_item376_id": 0,
+      "bank_item377_id": 0,
+      "bank_item378_id": 0,
+      "bank_item379_id": 0,
+      "bank_item380_id": 0,
+      "bank_item381_id": 0,
+      "bank_item382_id": 0,
+      "bank_item383_id": 0,
+      "bank_item384_id": 0,
+      "bank_item385_id": 0,
+      "bank_item386_id": 0,
+      "bank_item387_id": 0,
+      "bank_item388_id": 0,
+      "bank_item389_id": 0,
+      "bank_item390_id": 0,
+      "bank_item391_id": 0,
+      "bank_item392_id": 0,
+      "bank_item393_id": 0,
+      "bank_item394_id": 0,
+      "bank_item395_id": 0,
+      "bank_item396_id": 0,
+      "bank_item397_id": 0,
+      "bank_item398_id": 0,
+      "bank_item399_id": 0,
+      "bank_item400_id": 0,
+      "bank_item401_id": 0,
+      "bank_item402_id": 0,
+      "bank_item403_id": 0,
+      "bank_item404_id": 0,
+      "bank_item405_id": 0,
+      "bank_item406_id": 0,
+      "bank_item407_id": 0,
+      "bank_item408_id": 0,
+      "bank_item409_id": 0,
+      "bank_item410_id": 0,
+      "bank_item411_id": 0,
+      "bank_item412_id": 0,
+      "bank_item413_id": 0,
+      "bank_item414_id": 0,
+      "bank_item415_id": 0,
+      "bank_item416_id": 0,
+      "bank_item417_id": 0,
+      "bank_item418_id": 0,
+      "bank_item419_id": 0,
+      "bank_item420_id": 0,
+      "bank_item421_id": 0,
+      "bank_item422_id": 0,
+      "bank_item423_id": 0,
+      "bank_item424_id": 0,
+      "bank_item425_id": 0,
+      "bank_item426_id": 0,
+      "bank_item427_id": 0,
+      "bank_item428_id": 0,
+      "bank_item429_id": 0,
+      "bank_item430_id": 0,
+      "bank_item431_id": 0,
+      "bank_item432_id": 0,
+      "bank_item433_id": 0,
+      "bank_item434_id": 0,
+      "bank_item435_id": 0,
+      "bank_item436_id": 0,
+      "bank_item437_id": 0,
+      "bank_item438_id": 0,
+      "bank_item439_id": 0,
+      "bank_item440_id": 0,
+      "bank_item441_id": 0,
+      "bank_item442_id": 0,
+      "bank_item443_id": 0,
+      "bank_item444_id": 0,
+      "bank_item445_id": 0,
+      "bank_item446_id": 0,
+      "bank_item447_id": 0,
+      "bank_item448_id": 0,
+      "bank_item449_id": 0,
+      "bank_item450_id": 0
+    },
+    "owned_items": [
+      {
+        "identifier": "boots_cowboy_boots1",
+        "type": 5,
+        "quality": 1
+      },
+      {
+        "identifier": "boots_hair",
+        "type": 5,
+        "quality": 1
+      },
+      {
+        "identifier": "boots_new_character_set",
+        "type": 5,
+        "quality": 1
+      },
+      {
+        "identifier": "boots_wellies1",
+        "type": 5,
+        "quality": 1
+      },
+      {
+        "identifier": "cape_hair",
+        "type": 2,
+        "quality": 1
+      },
+      {
+        "identifier": "mask_cucumber_mask1",
+        "type": 1,
+        "quality": 1
+      },
+      {
+        "identifier": "sidekick_dog3",
+        "type": 9,
+        "quality": 1
+      },
+      {
+        "identifier": "suit_bathrobe1",
+        "type": 3,
+        "quality": 1
+      },
+      {
+        "identifier": "suit_new_character_set",
+        "type": 3,
+        "quality": 1
+      }
+    ],
+    "guild": {
+      "id": 7,
+      "ts_creation": 1759353611,
+      "initiator_character_id": 288,
+      "leader_character_id": 288,
+      "name": "Unemployed",
+      "description": "Combatemos por...",
+      "note": "",
+      "officer_note": "",
+      "forum_page": "",
+      "premium_currency": 0,
+      "game_currency": 100,
+      "status": 1,
+      "accept_members": false,
+      "locale": "pt_PT",
+      "pending_guild_battle_attack_id": 39,
+      "pending_guild_battle_defense_id": 0,
+      "pending_guild_dungeon_battle_attack_id": 0,
+      "honor": 1100,
+      "artifact_ids": "[]",
+      "missiles": 8,
+      "auto_joins": 0,
+      "battles_fought": 8,
+      "battles_attacked": 3,
+      "battles_defended": 5,
+      "battles_won": 1,
+      "battles_lost": 7,
+      "artifacts_won": 1,
+      "artifacts_lost": 1,
+      "artifacts_owned_max": 1,
+      "artifacts_owned_current": 0,
+      "ts_last_artifact_released": 0,
+      "missiles_fired": 7,
+      "auto_joins_used": 0,
+      "dungeon_battles_fought": 0,
+      "dungeon_battles_won": 0,
+      "unlocked_rewards": "",
+      "stat_points_available": 0,
+      "stat_guild_capacity": 10,
+      "stat_character_base_stats_boost": 1,
+      "stat_quest_xp_reward_boost": 1,
+      "stat_quest_game_currency_reward_boost": 1,
+      "arena_background": 1,
+      "emblem_background_shape": 1,
+      "emblem_background_color": 2,
+      "emblem_background_border_color": 0,
+      "emblem_icon_shape": 1,
+      "emblem_icon_color": 4,
+      "emblem_icon_size": 100,
+      "use_missiles_attack": true,
+      "use_missiles_defense": true,
+      "use_missiles_dungeon": false,
+      "use_auto_joins_attack": true,
+      "use_auto_joins_defense": true,
+      "use_auto_joins_dungeon": true,
+      "pending_leader_vote_id": 0,
+      "min_apply_level": 0,
+      "min_apply_honor": 0,
+      "min_apply_hideout_level": 0,
+      "min_apply_gem_level": 0,
+      "apply_open": false,
+      "apply_open_mail": false,
+      "guild_battle_tactics_attack_order": 1,
+      "guild_battle_tactics_attack_tactic": 10,
+      "guild_battle_tactics_defense_order": 1,
+      "guild_battle_tactics_defense_tactic": 10,
+      "active_training_booster_id": "",
+      "ts_active_training_boost_expires": 0,
+      "active_quest_booster_id": "",
+      "ts_active_quest_boost_expires": 0,
+      "active_duel_booster_id": "",
+      "ts_active_duel_boost_expires": 0,
+      "guild_competition_reward_boost_factor": 0,
+      "ts_guild_competition_reward_boost_expires": 0,
+      "ts_last_guildbook_update": 0,
+      "guildbook_objectives_renewed_today": 0,
+      "synergy_energy": 0,
+      "synergy_energy_storage": 0,
+      "synergy_energy_storage_max": 100,
+      "active_synergy_energy": 0
+    },
+    "guild_members": [
+      {
+        "id": 288,
+        "user_id": 288,
+        "server_id": "pt13",
+        "name": "JoyfulShieldbearer",
+        "gender": "m",
+        "level": 11,
+        "honor": 357,
+        "guild_rank": 1,
+        "ts_guild_joined": 1759353611,
+        "ts_last_online": 1759698222,
+        "last_action": 0,
+        "online_status": 1,
+        "game_currency_donation": 0,
+        "premium_currency_donation": 0,
+        "guild_competition_points_gathered": 0,
+        "stat_total_stamina": 32,
+        "stat_total_strength": 11,
+        "stat_total_critical_rating": 11,
+        "stat_total_dodge_rating": 15
+      }
+    ],
+    "guild_competition_data": {
+      "id": 7,
+      "status": 1,
+      "ts_end": 1760039999,
+      "ts_start": 1759435200,
+      "identifier": "default_guild_competition_sidekick_levelup",
+      "rank": 1,
+      "score": 0
+    },
+    "pending_guild_battle_attack": {
+      "id": 39,
+      "battle_time": 1,
+      "ts_attack": 1759748400,
+      "guild_attacker_id": 7,
+      "guild_defender_id": 6,
+      "status": 1,
+      "character_ids": "[288]"
+    },
+    "finished_guild_battle_defense": {
+      "id": 33,
+      "battle_time": 5,
+      "ts_attack": 1759698000,
+      "guild_attacker_id": 13,
+      "guild_defender_id": 7,
+      "guild_winner_id": 13,
+      "status": 3,
+      "character_ids": "[288]",
+      "attacker_character_profiles": "{\"355\":{\"profile\":\"355\",\"level\":15,\"stamina\":78,\"strength\":152,\"criticalrating\":77,\"dodgerating\":91,\"weapondamage\":3,\"total_stamina\":78,\"season_effect\":{\"1065\":0.1},\"effects\":{\"1065\":0.1},\"damagebonus1_damage\":43,\"damagebonus1_charges\":99,\"appearance\":{\"name\":\"katchauu\",\"gender\":\"m\",\"appearance_skin_color\":1,\"appearance_hair_color\":1,\"appearance_hair_type\":51,\"appearance_head_type\":4,\"appearance_eyes_type\":8,\"appearance_eyebrows_type\":7,\"appearance_nose_type\":4,\"appearance_mouth_type\":1,\"appearance_facial_hair_type\":0,\"appearance_decoration_type\":0,\"show_mask\":true,\"show_cape\":true,\"cape\":\"cape_shower_curtain1\",\"missiles\":\"missiles_curlers\",\"mask\":\"mask_hair\",\"suit\":\"suit_overalls1\",\"belt\":\"belt_babybib1\",\"boots\":\"boots_cowboy_boots1\"},\"joined\":true,\"damage_bonus\":198,\"damage1_bonus\":198,\"missiles1_id\":93507,\"name\":\"katchauu\",\"gender\":\"m\",\"position\":1,\"appearance_skin_color\":1,\"appearance_hair_color\":1,\"appearance_hair_type\":51,\"appearance_head_type\":4,\"appearance_eyes_type\":8,\"appearance_eyebrows_type\":7,\"appearance_nose_type\":4,\"appearance_mouth_type\":1,\"appearance_facial_hair_type\":0,\"appearance_decoration_type\":0,\"show_mask\":true,\"show_cape\":true,\"mask\":\"mask_hair\",\"belt\":\"belt_babybib1\",\"boots\":\"boots_cowboy_boots1\",\"cape\":\"cape_shower_curtain1\",\"suit\":\"suit_overalls1\",\"missiles\":\"missiles_curlers\",\"guild_battle_tactics_attack_tactic\":10,\"guild_battle_tactics_attack_order\":1}}",
+      "defender_character_profiles": "{\"288\":{\"profile\":\"288\",\"level\":11,\"stamina\":32,\"strength\":10,\"criticalrating\":10,\"dodgerating\":14,\"weapondamage\":0,\"total_stamina\":36,\"season_effect\":{\"1065\":0.1},\"effects\":{\"1065\":0.1},\"damagebonus1_damage\":51,\"damagebonus1_charges\":90,\"appearance\":{\"name\":\"JoyfulShieldbearer\",\"gender\":\"m\",\"appearance_skin_color\":1,\"appearance_hair_color\":1,\"appearance_hair_type\":51,\"appearance_head_type\":4,\"appearance_eyes_type\":8,\"appearance_eyebrows_type\":7,\"appearance_nose_type\":4,\"appearance_mouth_type\":1,\"appearance_facial_hair_type\":0,\"appearance_decoration_type\":0,\"show_mask\":true,\"show_cape\":true,\"missiles\":\"missiles_curlers\"},\"joined\":true,\"damage_bonus\":61,\"damage1_bonus\":61,\"missiles1_id\":95105,\"name\":\"JoyfulShieldbearer\",\"gender\":\"m\",\"position\":1,\"appearance_skin_color\":1,\"appearance_hair_color\":1,\"appearance_hair_type\":51,\"appearance_head_type\":4,\"appearance_eyes_type\":8,\"appearance_eyebrows_type\":7,\"appearance_nose_type\":4,\"appearance_mouth_type\":1,\"appearance_facial_hair_type\":0,\"appearance_decoration_type\":0,\"show_mask\":true,\"show_cape\":true,\"missiles\":\"missiles_curlers\",\"guild_battle_tactics_defense_tactic\":10,\"guild_battle_tactics_defense_order\":1}}",
+      "rounds": "[{\"a\":\"288\",\"d\":\"355\",\"m\":1,\"r\":4,\"v\":156},{\"a\":\"355\",\"d\":\"288\",\"m\":1,\"r\":5,\"v\":853}]",
+      "attacker_rewards": "{\"honor\":1990,\"artifact_id\":34,\"artifact_stolen\":true}",
+      "defender_rewards": "{\"honor\":-1100,\"artifact_id\":34}"
+    },
+    "guild_battle_guilds": [
+      {
+        "ts_creation": 1759329301,
+        "name": "Resi2430",
+        "description": "Combatemos por...",
+        "status": 1,
+        "accept_members": false,
+        "locale": "pt_PT",
+        "honor": 2940,
+        "artifact_ids": "[4]",
+        "battles_fought": 6,
+        "battles_attacked": 3,
+        "battles_defended": 3,
+        "battles_won": 3,
+        "battles_lost": 3,
+        "dungeon_battles_fought": 3,
+        "dungeon_battles_won": 1,
+        "missiles_fired": 15,
+        "auto_joins_used": 0,
+        "artifacts_won": 3,
+        "artifacts_lost": 2,
+        "artifacts_owned_max": 1,
+        "artifacts_owned_current": 1,
+        "forum_page": "",
+        "stat_guild_capacity": 19,
+        "stat_character_base_stats_boost": 15,
+        "stat_quest_xp_reward_boost": 20,
+        "stat_quest_game_currency_reward_boost": 17,
+        "arena_background": 1,
+        "emblem_background_shape": 1,
+        "emblem_background_color": 2,
+        "emblem_background_border_color": 0,
+        "emblem_icon_shape": 1,
+        "emblem_icon_color": 4,
+        "emblem_icon_size": 100,
+        "min_apply_level": 0,
+        "min_apply_honor": 0,
+        "min_apply_hideout_level": 0,
+        "min_apply_gem_level": 0,
+        "active_training_booster_id": "",
+        "ts_active_training_boost_expires": 0,
+        "active_quest_booster_id": "",
+        "ts_active_quest_boost_expires": 0,
+        "active_duel_booster_id": "",
+        "ts_active_duel_boost_expires": 0,
+        "apply_open": false,
+        "guild_competition_reward_boost_factor": 0,
+        "ts_guild_competition_reward_boost_expires": 0,
+        "id": 6
+      },
+      {
+        "ts_creation": 1759559452,
+        "name": "Bogas City",
+        "description": "Combatemos por...",
+        "status": 1,
+        "accept_members": true,
+        "locale": "pt_PT",
+        "honor": 2390,
+        "artifact_ids": "[34]",
+        "battles_fought": 3,
+        "battles_attacked": 2,
+        "battles_defended": 1,
+        "battles_won": 1,
+        "battles_lost": 2,
+        "dungeon_battles_fought": 0,
+        "dungeon_battles_won": 0,
+        "missiles_fired": 3,
+        "auto_joins_used": 0,
+        "artifacts_won": 1,
+        "artifacts_lost": 0,
+        "artifacts_owned_max": 1,
+        "artifacts_owned_current": 1,
+        "forum_page": "",
+        "stat_guild_capacity": 10,
+        "stat_character_base_stats_boost": 1,
+        "stat_quest_xp_reward_boost": 1,
+        "stat_quest_game_currency_reward_boost": 1,
+        "arena_background": 1,
+        "emblem_background_shape": 1,
+        "emblem_background_color": 14,
+        "emblem_background_border_color": 25,
+        "emblem_icon_shape": 1,
+        "emblem_icon_color": 11,
+        "emblem_icon_size": 100,
+        "min_apply_level": 0,
+        "min_apply_honor": 0,
+        "min_apply_hideout_level": 0,
+        "min_apply_gem_level": 0,
+        "active_training_booster_id": "",
+        "ts_active_training_boost_expires": 0,
+        "active_quest_booster_id": "",
+        "ts_active_quest_boost_expires": 0,
+        "active_duel_booster_id": "",
+        "ts_active_duel_boost_expires": 0,
+        "apply_open": false,
+        "guild_competition_reward_boost_factor": 0,
+        "ts_guild_competition_reward_boost_expires": 0,
+        "id": 13
+      }
+    ],
+    "quests": [
+      {
+        "id": 260403,
+        "character_id": 288,
+        "identifier": "quest_stage1_time7",
+        "type": 1,
+        "stage": 1,
+        "level": 3,
+        "status": 1,
+        "duration_type": 3,
+        "duration_raw": 1440,
+        "duration": 720,
+        "ts_complete": 1789761075,
+        "energy_cost": 12,
+        "fight_difficulty": 0,
+        "fight_npc_identifier": "",
+        "fight_battle_id": 0,
+        "used_resources": 0,
+        "rewards": "{\"event_item\":\"server_launch_2025_october_event_item\",\"coins\":261,\"xp\":1200}"
+      },
+      {
+        "id": 260404,
+        "character_id": 288,
+        "identifier": "quest_stage1_time16",
+        "type": 1,
+        "stage": 1,
+        "level": 9,
+        "status": 1,
+        "duration_type": 2,
+        "duration_raw": 480,
+        "duration": 240,
+        "ts_complete": 0,
+        "energy_cost": 4,
+        "fight_difficulty": 0,
+        "fight_npc_identifier": "",
+        "fight_battle_id": 0,
+        "used_resources": 0,
+        "rewards": "{\"coins\":54,\"xp\":713}"
+      },
+      {
+        "id": 260405,
+        "character_id": 288,
+        "identifier": "quest_stage1_fight17",
+        "type": 2,
+        "stage": 1,
+        "level": 3,
+        "status": 1,
+        "duration_type": 1,
+        "duration_raw": 240,
+        "duration": 120,
+        "ts_complete": 0,
+        "energy_cost": 2,
+        "fight_difficulty": 1,
+        "fight_npc_identifier": "npc_music_enthusiast",
+        "fight_battle_id": 0,
+        "used_resources": 0,
+        "rewards": "{\"coins\":27,\"xp\":421}"
+      },
+      {
+        "id": 260406,
+        "character_id": 288,
+        "identifier": "quest_stage2_fight3",
+        "type": 2,
+        "stage": 2,
+        "level": 10,
+        "status": 1,
+        "duration_type": 2,
+        "duration_raw": 540,
+        "duration": 300,
+        "ts_complete": 0,
+        "energy_cost": 5,
+        "fight_difficulty": 3,
+        "fight_npc_identifier": "npc_kids_two_evil",
+        "fight_battle_id": 0,
+        "used_resources": 0,
+        "rewards": "{\"coins\":110,\"xp\":1720}"
+      },
+      {
+        "id": 260407,
+        "character_id": 288,
+        "identifier": "quest_stage2_time11",
+        "type": 1,
+        "stage": 2,
+        "level": 11,
+        "status": 1,
+        "duration_type": 3,
+        "duration_raw": 1260,
+        "duration": 660,
+        "ts_complete": 0,
+        "energy_cost": 11,
+        "fight_difficulty": 0,
+        "fight_npc_identifier": "",
+        "fight_battle_id": 0,
+        "used_resources": 0,
+        "rewards": "{\"coins\":139,\"xp\":2030}"
+      },
+      {
+        "id": 260408,
+        "character_id": 288,
+        "identifier": "quest_stage2_time4",
+        "type": 1,
+        "stage": 2,
+        "level": 10,
+        "status": 1,
+        "duration_type": 1,
+        "duration_raw": 300,
+        "duration": 180,
+        "ts_complete": 0,
+        "energy_cost": 3,
+        "fight_difficulty": 0,
+        "fight_npc_identifier": "",
+        "fight_battle_id": 0,
+        "used_resources": 0,
+        "rewards": "{\"coins\":6,\"xp\":649}"
+      }
+    ],
+    "items": [
+      {
+        "id": 26886,
+        "character_id": 288,
+        "identifier": "boots_concrete",
+        "type": 5,
+        "quality": 1,
+        "required_level": 1,
+        "charges": 0,
+        "item_level": 6,
+        "ts_availability_start": 0,
+        "ts_availability_end": 0,
+        "premium_item": false,
+        "buy_price": 55,
+        "sell_price": 28,
+        "stat_stamina": 0,
+        "stat_strength": 0,
+        "stat_critical_rating": 4,
+        "stat_dodge_rating": 15,
+        "stat_weapon_damage": 0
+      },
+      {
+        "id": 26887,
+        "character_id": 288,
+        "identifier": "belt_rhinestone_belt2",
+        "type": 4,
+        "quality": 2,
+        "required_level": 6,
+        "charges": 0,
+        "item_level": 10,
+        "ts_availability_start": 0,
+        "ts_availability_end": 0,
+        "premium_item": false,
+        "buy_price": 81,
+        "sell_price": 41,
+        "stat_stamina": 0,
+        "stat_strength": 0,
+        "stat_critical_rating": 24,
+        "stat_dodge_rating": 7,
+        "stat_weapon_damage": 0
+      },
+      {
+        "id": 26888,
+        "character_id": 288,
+        "identifier": "cape_shower_curtain4",
+        "type": 2,
+        "quality": 1,
+        "required_level": 1,
+        "charges": 0,
+        "item_level": 6,
+        "ts_availability_start": 0,
+        "ts_availability_end": 0,
+        "premium_item": false,
+        "buy_price": 56,
+        "sell_price": 28,
+        "stat_stamina": 0,
+        "stat_strength": 0,
+        "stat_critical_rating": 12,
+        "stat_dodge_rating": 8,
+        "stat_weapon_damage": 0
+      },
+      {
+        "id": 26889,
+        "character_id": 288,
+        "identifier": "cape_concrete",
+        "type": 2,
+        "quality": 1,
+        "required_level": 1,
+        "charges": 0,
+        "item_level": 5,
+        "ts_availability_start": 0,
+        "ts_availability_end": 0,
+        "premium_item": false,
+        "buy_price": 57,
+        "sell_price": 29,
+        "stat_stamina": 13,
+        "stat_strength": 0,
+        "stat_critical_rating": 2,
+        "stat_dodge_rating": 0,
+        "stat_weapon_damage": 0
+      },
+      {
+        "id": 26890,
+        "character_id": 288,
+        "identifier": "mask_ski_mask1",
+        "type": 1,
+        "quality": 1,
+        "required_level": 1,
+        "charges": 0,
+        "item_level": 5,
+        "ts_availability_start": 0,
+        "ts_availability_end": 0,
+        "premium_item": false,
+        "buy_price": 60,
+        "sell_price": 30,
+        "stat_stamina": 15,
+        "stat_strength": 0,
+        "stat_critical_rating": 0,
+        "stat_dodge_rating": 0,
+        "stat_weapon_damage": 0
+      },
+      {
+        "id": 26891,
+        "character_id": 288,
+        "identifier": "suit_overalls5",
+        "type": 3,
+        "quality": 1,
+        "required_level": 5,
+        "charges": 0,
+        "item_level": 6,
+        "ts_availability_start": 0,
+        "ts_availability_end": 0,
+        "premium_item": false,
+        "buy_price": 57,
+        "sell_price": 29,
+        "stat_stamina": 0,
+        "stat_strength": 0,
+        "stat_critical_rating": 18,
+        "stat_dodge_rating": 0,
+        "stat_weapon_damage": 0
+      },
+      {
+        "id": 26892,
+        "character_id": 288,
+        "identifier": "cape_bed_sheet5",
+        "type": 2,
+        "quality": 1,
+        "required_level": 1,
+        "charges": 0,
+        "item_level": 5,
+        "ts_availability_start": 0,
+        "ts_availability_end": 0,
+        "premium_item": false,
+        "buy_price": 56,
+        "sell_price": 28,
+        "stat_stamina": 16,
+        "stat_strength": 0,
+        "stat_critical_rating": 0,
+        "stat_dodge_rating": 0,
+        "stat_weapon_damage": 0
+      },
+      {
+        "id": 26893,
+        "character_id": 288,
+        "identifier": "belt_washing_line1",
+        "type": 4,
+        "quality": 1,
+        "required_level": 1,
+        "charges": 0,
+        "item_level": 5,
+        "ts_availability_start": 0,
+        "ts_availability_end": 0,
+        "premium_item": false,
+        "buy_price": 56,
+        "sell_price": 28,
+        "stat_stamina": 9,
+        "stat_strength": 0,
+        "stat_critical_rating": 0,
+        "stat_dodge_rating": 8,
+        "stat_weapon_damage": 0
+      },
+      {
+        "id": 26894,
+        "character_id": 288,
+        "identifier": "mask_3d1",
+        "type": 1,
+        "quality": 1,
+        "required_level": 3,
+        "charges": 0,
+        "item_level": 5,
+        "ts_availability_start": 0,
+        "ts_availability_end": 0,
+        "premium_item": false,
+        "buy_price": 55,
+        "sell_price": 28,
+        "stat_stamina": 0,
+        "stat_strength": 15,
+        "stat_critical_rating": 0,
+        "stat_dodge_rating": 0,
+        "stat_weapon_damage": 0
+      },
+      {
+        "id": 95105,
+        "character_id": 288,
+        "identifier": "missiles_curlers",
+        "type": 8,
+        "quality": 1,
+        "required_level": 15,
+        "charges": 89,
+        "item_level": 13,
+        "ts_availability_start": 0,
+        "ts_availability_end": 0,
+        "premium_item": true,
+        "buy_price": 1,
+        "sell_price": 64,
+        "stat_stamina": 0,
+        "stat_strength": 0,
+        "stat_critical_rating": 0,
+        "stat_dodge_rating": 0,
+        "stat_weapon_damage": 0
+      },
+      {
+        "id": 95194,
+        "character_id": 288,
+        "identifier": "boots_wellies1",
+        "type": 5,
+        "quality": 1,
+        "required_level": 1,
+        "charges": 0,
+        "item_level": 12,
+        "ts_availability_start": 3,
+        "ts_availability_end": 0,
+        "premium_item": true,
+        "buy_price": 1,
+        "sell_price": 73,
+        "stat_stamina": 38,
+        "stat_strength": 0,
+        "stat_critical_rating": 0,
+        "stat_dodge_rating": 0,
+        "stat_weapon_damage": 0
+      },
+      {
+        "id": 95524,
+        "character_id": 288,
+        "identifier": "suit_disco2",
+        "type": 3,
+        "quality": 3,
+        "required_level": 11,
+        "charges": 0,
+        "item_level": 20,
+        "ts_availability_start": 4,
+        "ts_availability_end": 0,
+        "premium_item": false,
+        "buy_price": 264,
+        "sell_price": 132,
+        "stat_stamina": 18,
+        "stat_strength": 35,
+        "stat_critical_rating": 0,
+        "stat_dodge_rating": 9,
+        "stat_weapon_damage": 0
+      },
+      {
+        "id": 95525,
+        "character_id": 288,
+        "identifier": "boots_wellies3",
+        "type": 5,
+        "quality": 3,
+        "required_level": 1,
+        "charges": 0,
+        "item_level": 20,
+        "ts_availability_start": 5,
+        "ts_availability_end": 0,
+        "premium_item": false,
+        "buy_price": 247,
+        "sell_price": 124,
+        "stat_stamina": 18,
+        "stat_strength": 30,
+        "stat_critical_rating": 0,
+        "stat_dodge_rating": 13,
+        "stat_weapon_damage": 0
+      },
+      {
+        "id": 95526,
+        "character_id": 288,
+        "identifier": "cape_shower_curtain3",
+        "type": 2,
+        "quality": 3,
+        "required_level": 1,
+        "charges": 0,
+        "item_level": 20,
+        "ts_availability_start": 4,
+        "ts_availability_end": 0,
+        "premium_item": false,
+        "buy_price": 220,
+        "sell_price": 110,
+        "stat_stamina": 15,
+        "stat_strength": 32,
+        "stat_critical_rating": 0,
+        "stat_dodge_rating": 13,
+        "stat_weapon_damage": 0
+      }
+    ],
+    "trainings": [
+      {
+        "id": 50633,
+        "character_id": 288,
+        "setting": "stamina_indoor",
+        "status": 1,
+        "training_cost": 4,
+        "energy": 0,
+        "needed_energy": 550,
+        "stat_type": 1,
+        "duration": 1200,
+        "ts_end": 0,
+        "training_quest_id": 0,
+        "training_quest_pool": "",
+        "claimed_stars": 0,
+        "rewards_star_1": "{\"coins\":20,\"xp\":54}",
+        "rewards_star_2": "{\"coins\":49,\"xp\":135}",
+        "rewards_star_3": "{\"coins\":98,\"xp\":270,\"item\":95524}",
+        "stat_points_star_1": 1,
+        "stat_points_star_2": 1,
+        "stat_points_star_3": 1
+      },
+      {
+        "id": 50634,
+        "character_id": 288,
+        "setting": "strength_indoor",
+        "status": 1,
+        "training_cost": 4,
+        "energy": 0,
+        "needed_energy": 550,
+        "stat_type": 2,
+        "duration": 1200,
+        "ts_end": 0,
+        "training_quest_id": 0,
+        "training_quest_pool": "",
+        "claimed_stars": 0,
+        "rewards_star_1": "{\"coins\":20,\"xp\":54}",
+        "rewards_star_2": "{\"coins\":49,\"xp\":135}",
+        "rewards_star_3": "{\"coins\":98,\"xp\":270,\"item\":95525}",
+        "stat_points_star_1": 1,
+        "stat_points_star_2": 1,
+        "stat_points_star_3": 1
+      },
+      {
+        "id": 50635,
+        "character_id": 288,
+        "setting": "critical_rating_indoor",
+        "status": 1,
+        "training_cost": 4,
+        "energy": 0,
+        "needed_energy": 550,
+        "stat_type": 3,
+        "duration": 1200,
+        "ts_end": 0,
+        "training_quest_id": 0,
+        "training_quest_pool": "",
+        "claimed_stars": 0,
+        "rewards_star_1": "{\"coins\":20,\"xp\":54}",
+        "rewards_star_2": "{\"coins\":49,\"xp\":135}",
+        "rewards_star_3": "{\"coins\":98,\"xp\":270,\"item\":95526}",
+        "stat_points_star_1": 1,
+        "stat_points_star_2": 1,
+        "stat_points_star_3": 1
+      },
+      {
+        "id": 50636,
+        "character_id": 288,
+        "setting": "dodge_rating_indoor",
+        "status": 1,
+        "training_cost": 4,
+        "energy": 0,
+        "needed_energy": 550,
+        "stat_type": 4,
+        "duration": 1200,
+        "ts_end": 0,
+        "training_quest_id": 0,
+        "training_quest_pool": "",
+        "claimed_stars": 0,
+        "rewards_star_1": "{\"coins\":20,\"xp\":54}",
+        "rewards_star_2": "{\"coins\":49,\"xp\":135}",
+        "rewards_star_3": "{\"coins\":98,\"xp\":270,\"statPoints\":1}",
+        "stat_points_star_1": 1,
+        "stat_points_star_2": 1,
+        "stat_points_star_3": 1
+      }
+    ],
+    "sidekicks": [],
+    "campaigns": {
+      "character_creation_screen": {
+        "id": 35,
+        "variation": 0
+      }
+    },
+    "mab_experiments": {
+      "new_shop": {
+        "variation": "new"
+      }
+    },
+    "worldboss_event_character_data": [],
+    "event_quest": {
+      "id": 140,
+      "character_id": 288,
+      "identifier": "server_launch_2025_october",
+      "status": 1,
+      "objective1_value": 4,
+      "objective2_value": 1,
+      "objective3_value": 1,
+      "objective4_value": 0,
+      "objective5_value": 4,
+      "objective6_value": 0,
+      "objective7_value": 0,
+      "objective8_value": 0,
+      "objective9_value": 0,
+      "objective10_value": 0,
+      "objective1_reward_item_id": 0,
+      "objective2_reward_item_id": 0,
+      "objective3_reward_item_id": 0,
+      "objective4_reward_item_id": 0,
+      "objective5_reward_item_id": 0,
+      "objective6_reward_item_id": 0,
+      "objective7_reward_item_id": 0,
+      "objective8_reward_item_id": 0,
+      "objective9_reward_item_id": 0,
+      "objective10_reward_item_id": 0,
+      "rewards": "",
+      "reward_item1_id": 0,
+      "reward_item1_rewards": "",
+      "reward_item2_id": 0,
+      "reward_item2_rewards": "",
+      "reward_item3_id": 0,
+      "reward_item3_rewards": "",
+      "end_date": "2025-10-07 23:59:59",
+      "worldboss_start_times": [
+        {
+          "startDateTime": "2025-10-06 18:00:00",
+          "identifier": "default_event_stage1_2"
+        },
+        {
+          "startDateTime": "2025-10-07 05:30:00",
+          "identifier": "default_event_stage1"
+        },
+        {
+          "startDateTime": "2025-10-07 22:00:00",
+          "identifier": "default_event_stage1_2"
+        }
+      ]
+    },
+    "treasure_event": {
+      "id": 103,
+      "identifier": "future_treasure",
+      "status": 1,
+      "event_reveal_items": 20,
+      "event_tokens": 0,
+      "rewards": "",
+      "collected_rewards": "",
+      "ts_reveal_item_collected": 0,
+      "current_level": 1,
+      "levels": "{\"1\":{\"info\":{\"found\":0,\"needed\":3,\"boni_found\":0,\"boni_amount\":1,\"ts_unlock\":0},\"cells\":[]}}",
+      "end_date": "2025-10-06 23:59:59"
+    },
+    "tower_event_data": {
+      "towers": [],
+      "active_tower_id": 0,
+      "events": {
+        "active_event_ids": [],
+        "events_data": []
+      },
+      "inventory": {
+        "tower_items": []
+      },
+      "tutorial": {
+        "current_step": 1
+      }
+    },
+    "bonus_info": {
+      "bonus_datas": [
+        {
+          "event_id": null,
+          "date": 1759273200,
+          "type": 7,
+          "value": 2,
+          "dateFormatted": "2025-10-01"
+        },
+        {
+          "event_id": null,
+          "date": 1759359600,
+          "type": 7,
+          "value": 2,
+          "dateFormatted": "2025-10-02"
+        },
+        {
+          "event_id": null,
+          "date": 1759446000,
+          "type": 7,
+          "value": 2,
+          "dateFormatted": "2025-10-03"
+        },
+        {
+          "event_id": null,
+          "date": 1759532400,
+          "type": 7,
+          "value": 2,
+          "dateFormatted": "2025-10-04"
+        },
+        {
+          "event_id": null,
+          "date": 1759618800,
+          "type": 7,
+          "value": 2,
+          "dateFormatted": "2025-10-05"
+        },
+        {
+          "event_id": null,
+          "date": 1759705200,
+          "type": 7,
+          "value": 2,
+          "dateFormatted": "2025-10-06"
+        },
+        {
+          "event_id": null,
+          "date": 1759791600,
+          "type": 7,
+          "value": 2,
+          "dateFormatted": "2025-10-07"
+        }
+      ]
+    },
+    "reskill_enabled": false,
+    "advertisment_info": {
+      "show_advertisment": true,
+      "show_preroll_advertisment": false,
+      "show_left_skyscraper_advertisment": false,
+      "advertisment_refresh_rate": 512640,
+      "remaining_video_advertisment_cooldown__1": 0,
+      "video_advertisment_blocked_time__1": 900,
+      "remaining_video_advertisment_cooldown__2": 0,
+      "video_advertisment_blocked_time__2": 900,
+      "remaining_video_advertisment_cooldown__4": 0,
+      "video_advertisment_blocked_time__4": 900,
+      "remaining_video_advertisment_cooldown__5": 0,
+      "video_advertisment_blocked_time__5": 900,
+      "remaining_video_advertisment_cooldown__6": 0,
+      "video_advertisment_blocked_time__6": 900,
+      "remaining_video_advertisment_cooldown__7": 0,
+      "video_advertisment_blocked_time__7": 0,
+      "remaining_video_advertisment_cooldown__8": 0,
+      "video_advertisment_blocked_time__8": 900
+    },
+    "show_advertisment": true,
+    "show_preroll_advertisment": false,
+    "tournament_end_timestamp": 1760299200,
+    "global_tournament_end_timestamp": 1759950000,
+    "league_season_end_timestamp": 1759780800,
+    "current_goal_values": {
+      "level_reached": {
+        "value": 11,
+        "current_value": 11
+      },
+      "stage_reached": {
+        "value": 2,
+        "current_value": 2
+      },
+      "second_quests_completed": {
+        "value": 12,
+        "current_value": 12
+      },
+      "quests_completed": {
+        "value": 12,
+        "current_value": 12
+      },
+      "second_duel_completed": {
+        "value": 5,
+        "current_value": 5
+      },
+      "duels_completed": {
+        "value": 5,
+        "current_value": 5
+      },
+      "second_day_logged_in": {
+        "value": 5,
+        "current_value": 5
+      },
+      "days_logged_in": {
+        "value": 5,
+        "current_value": 5
+      },
+      "shop_refresh": {
+        "value": 1,
+        "current_value": 1
+      },
+      "shop_refreshed": {
+        "value": 1,
+        "current_value": 1
+      },
+      "time_worked": {
+        "value": 0,
+        "current_value": 0
+      },
+      "first_training_absolved": {
+        "value": 4,
+        "current_value": 4
+      },
+      "trainings_absolved": {
+        "value": 4,
+        "current_value": 4
+      },
+      "honor_reached": {
+        "value": 372,
+        "current_value": 372
+      },
+      "all_stats_value_reached": {
+        "value": 11,
+        "current_value": 11
+      },
+      "duels_won": {
+        "value": 5,
+        "current_value": 5
+      },
+      "duels_won_in_row": {
+        "value": 5,
+        "current_value": 5
+      },
+      "duels_lost": {
+        "value": 0,
+        "current_value": 0
+      },
+      "fight_quests_won_hard": {
+        "value": 0,
+        "current_value": 0
+      },
+      "player_profile_visit": {
+        "value": 1,
+        "current_value": 1
+      },
+      "leaderboard_visit": {
+        "value": 1,
+        "current_value": 1
+      },
+      "stat_point_bought": {
+        "value": 0,
+        "current_value": 0
+      },
+      "rare_item_bought": {
+        "value": 0,
+        "current_value": 0
+      },
+      "epic_item_bought": {
+        "value": 0,
+        "current_value": 0
+      },
+      "mission_booster_bought": {
+        "value": 0,
+        "current_value": 0
+      },
+      "stats_booster_bought": {
+        "value": 0,
+        "current_value": 0
+      },
+      "work_booster_bought": {
+        "value": 0,
+        "current_value": 0
+      },
+      "character_full_equipped": {
+        "value": 0,
+        "current_value": 0
+      },
+      "energy_bought": {
+        "value": 0,
+        "current_value": 0
+      },
+      "item_sold": {
+        "value": 1,
+        "current_value": 1
+      },
+      "tutorial_completed": {
+        "value": 1,
+        "current_value": 1
+      },
+      "coins_spent_a_day": {
+        "value": 520,
+        "current_value": 0
+      },
+      "quest_stage1_fight1": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage1_fight2": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage1_fight3": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage1_fight7": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage1_fight8": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage1_time5": {
+        "value": 1,
+        "current_value": 1
+      },
+      "quest_stage2_fight5": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage2_fight6": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage2_fight7": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage2_fight8": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage2_fight10": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage2_time16": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage3_fight4": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage3_fight5": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage3_fight6": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage3_fight7": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage3_fight8": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage3_time12": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage4_fight3": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage4_fight7": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage4_time8": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage4_time15": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage4_time16": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage5_fight1": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage5_fight2": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage5_fight5": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage5_time11": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage5_time15": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage6_fight5": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage6_fight7": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage6_fight8": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage6_time4": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage6_time5": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage6_time7": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage6_time14": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage6_time15": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage6_time19": {
+        "value": 0,
+        "current_value": 0
+      },
+      "duels_started_a_day": {
+        "value": 5,
+        "current_value": 0
+      },
+      "shop_refreshed_a_day": {
+        "value": 1,
+        "current_value": 0
+      },
+      "missles_fired": {
+        "value": 11,
+        "current_value": 11
+      },
+      "donuts_spent": {
+        "value": 11,
+        "current_value": 11
+      },
+      "guild_joined": {
+        "value": 1,
+        "current_value": 1
+      },
+      "guild_donated": {
+        "value": 0,
+        "current_value": 0
+      },
+      "guild_visited": {
+        "value": 1,
+        "current_value": 1
+      },
+      "account_confirmed": {
+        "value": 1,
+        "current_value": 1
+      },
+      "first_guild_battle_fought": {
+        "value": 6,
+        "current_value": 6
+      },
+      "guild_battles_fought": {
+        "value": 6,
+        "current_value": 6
+      },
+      "guild_battles_won": {
+        "value": 1,
+        "current_value": 1
+      },
+      "guild_battles_lost": {
+        "value": 5,
+        "current_value": 5
+      },
+      "first_guild_artifact_won": {
+        "value": 1,
+        "current_value": 1
+      },
+      "guild_artifacts_won": {
+        "value": 1,
+        "current_value": 1
+      },
+      "quest_stage7_time2": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage7_time4": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage7_time7": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage7_time12": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage7_time14": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage7_time16": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage7_fight1": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage7_fight2": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage7_fight6": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage7_fight9": {
+        "value": 0,
+        "current_value": 0
+      },
+      "first_worldboss_attack_completed": {
+        "value": 0,
+        "current_value": 0
+      },
+      "worldboss_attacks_completed": {
+        "value": 0,
+        "current_value": 0
+      },
+      "first_worldboss_event_won": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage8_time1": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage8_time2": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage8_fight3": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage8_time7": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage8_fight5": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage8_time12": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage8_fight8": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage8_time15": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage8_time18": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage8_time20": {
+        "value": 0,
+        "current_value": 0
+      },
+      "dungeon1_unlocked": {
+        "value": 0,
+        "current_value": 0
+      },
+      "dungeon1_normal_completed": {
+        "value": 0,
+        "current_value": 0
+      },
+      "dungeon1_hard_completed": {
+        "value": 0,
+        "current_value": 0
+      },
+      "dungeon2_unlocked": {
+        "value": 0,
+        "current_value": 0
+      },
+      "dungeon2_normal_completed": {
+        "value": 0,
+        "current_value": 0
+      },
+      "dungeon2_hard_completed": {
+        "value": 0,
+        "current_value": 0
+      },
+      "dungeon3_unlocked": {
+        "value": 0,
+        "current_value": 0
+      },
+      "dungeon3_normal_completed": {
+        "value": 0,
+        "current_value": 0
+      },
+      "dungeon3_hard_completed": {
+        "value": 0,
+        "current_value": 0
+      },
+      "dungeon4_unlocked": {
+        "value": 0,
+        "current_value": 0
+      },
+      "dungeon4_normal_completed": {
+        "value": 0,
+        "current_value": 0
+      },
+      "dungeon4_hard_completed": {
+        "value": 0,
+        "current_value": 0
+      },
+      "dungeon5_unlocked": {
+        "value": 0,
+        "current_value": 0
+      },
+      "dungeon5_normal_completed": {
+        "value": 0,
+        "current_value": 0
+      },
+      "dungeon5_hard_completed": {
+        "value": 0,
+        "current_value": 0
+      },
+      "first_item_washed": {
+        "value": 0,
+        "current_value": 0
+      },
+      "item_washed": {
+        "value": 0,
+        "current_value": 0
+      },
+      "first_item_sewed": {
+        "value": 0,
+        "current_value": 0
+      },
+      "item_sewed": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage9_time1": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage9_time4": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage9_fight1": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage9_time7": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage9_fight5": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage9_time10": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage9_time14": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage9_fight8": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage9_time16": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage9_time18": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage10_time2": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage10_time4": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage10_fight1": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage10_time8": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage10_time9": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage10_time16": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage10_fight7": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage10_fight8": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage10_time20": {
+        "value": 0,
+        "current_value": 0
+      },
+      "first_guild_dungeon_fought": {
+        "value": 0,
+        "current_value": 0
+      },
+      "guild_dungeons_fought": {
+        "value": 0,
+        "current_value": 0
+      },
+      "guild_dungeons_won": {
+        "value": 0,
+        "current_value": 0
+      },
+      "tournament_attended": {
+        "value": 0,
+        "current_value": 0
+      },
+      "tournament_top10_reached": {
+        "value": 0,
+        "current_value": 0
+      },
+      "tournament_top3_reached": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage11_time2": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage11_time6": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage11_fight4": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage11_time8": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage11_fight7": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage11_time12": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage11_time16": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage11_time14": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage11_time18": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage11_time21": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_refresh": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_refreshed": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_refreshed_a_day": {
+        "value": 0,
+        "current_value": 0
+      },
+      "booster_sense_use": {
+        "value": 0,
+        "current_value": 0
+      },
+      "booster_sense_used": {
+        "value": 0,
+        "current_value": 0
+      },
+      "booster_sense_used_a_day": {
+        "value": 0,
+        "current_value": 0
+      },
+      "first_sidekick_collected": {
+        "value": 0,
+        "current_value": 0
+      },
+      "sidekick_collected": {
+        "value": 0,
+        "current_value": 0
+      },
+      "first_sidekick_maxed": {
+        "value": 0,
+        "current_value": 0
+      },
+      "sidekick_maxed": {
+        "value": 0,
+        "current_value": 0
+      },
+      "dungeon6_unlocked": {
+        "value": 0,
+        "current_value": 0
+      },
+      "dungeon6_normal_completed": {
+        "value": 0,
+        "current_value": 0
+      },
+      "dungeon6_hard_completed": {
+        "value": 0,
+        "current_value": 0
+      },
+      "first_surprise_box_opened": {
+        "value": 0,
+        "current_value": 0
+      },
+      "surprise_box_opened": {
+        "value": 0,
+        "current_value": 0
+      },
+      "dungeon7_unlocked": {
+        "value": 0,
+        "current_value": 0
+      },
+      "dungeon7_normal_completed": {
+        "value": 0,
+        "current_value": 0
+      },
+      "dungeon7_hard_completed": {
+        "value": 0,
+        "current_value": 0
+      },
+      "first_sidekick_merged": {
+        "value": 0,
+        "current_value": 0
+      },
+      "sidekick_merged": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage12_time3": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage12_time5": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage12_time6": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage12_time9": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage12_fight7": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage12_time12": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage12_time14": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage12_fight8": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage12_fight9": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage12_time17": {
+        "value": 0,
+        "current_value": 0
+      },
+      "dungeon8_unlocked": {
+        "value": 0,
+        "current_value": 0
+      },
+      "dungeon8_normal_completed": {
+        "value": 0,
+        "current_value": 0
+      },
+      "dungeon8_hard_completed": {
+        "value": 0,
+        "current_value": 0
+      },
+      "league_points_reached": {
+        "value": 0,
+        "current_value": 0
+      },
+      "league_fights_won": {
+        "value": 0,
+        "current_value": 0
+      },
+      "league_fights_won_in_row": {
+        "value": 0,
+        "current_value": 0
+      },
+      "first_league_fight_completed": {
+        "value": 0,
+        "current_value": 0
+      },
+      "league_fights_completed": {
+        "value": 0,
+        "current_value": 0
+      },
+      "league_fights_started_a_day": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage13_time2": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage13_time6": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage13_time14": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage13_fight2": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage13_fight4": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage13_fight6": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage13_fight7": {
+        "value": 0,
+        "current_value": 0
+      },
+      "herobook_first_objetive_finished": {
+        "value": 0,
+        "current_value": 0
+      },
+      "herobook_objectives_finished": {
+        "value": 0,
+        "current_value": 0
+      },
+      "different_sidekick_collected": {
+        "value": 1,
+        "current_value": 1
+      },
+      "dungeon9_unlocked": {
+        "value": 0,
+        "current_value": 0
+      },
+      "dungeon9_normal_completed": {
+        "value": 0,
+        "current_value": 0
+      },
+      "dungeon9_hard_completed": {
+        "value": 0,
+        "current_value": 0
+      },
+      "first_quest_resource_request_accepted": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_resource_request_accepted": {
+        "value": 0,
+        "current_value": 0
+      },
+      "hideout_glue_collected": {
+        "value": 0,
+        "current_value": 0
+      },
+      "hideout_stone_collected": {
+        "value": 0,
+        "current_value": 0
+      },
+      "hideout_room_upgraded": {
+        "value": 0,
+        "current_value": 0
+      },
+      "hideout_unlock_room_slot": {
+        "value": 0,
+        "current_value": 0
+      },
+      "hideout_hideout_points_reached": {
+        "value": 0,
+        "current_value": 0
+      },
+      "hideout_units_produced": {
+        "value": 0,
+        "current_value": 0
+      },
+      "hideout_build_generator": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage14_time1": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage14_time4": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage14_time7": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage14_time10": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage14_time12": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage14_fight3": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage14_fight5": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage14_fight6": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage14_fight10": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage14_fight11": {
+        "value": 0,
+        "current_value": 0
+      },
+      "hideout_first_improvement_collected": {
+        "value": 0,
+        "current_value": 0
+      },
+      "hideout_improvement_collected": {
+        "value": 0,
+        "current_value": 0
+      },
+      "hideout_build_gem_production": {
+        "value": 0,
+        "current_value": 0
+      },
+      "hideout_visited": {
+        "value": 0,
+        "current_value": 0
+      },
+      "hideout_build_broker": {
+        "value": 0,
+        "current_value": 0
+      },
+      "hideout_room_broker_upgraded": {
+        "value": 0,
+        "current_value": 0
+      },
+      "hideout_build_robot_storage": {
+        "value": 0,
+        "current_value": 0
+      },
+      "hideout_room_robot_storage_upgraded": {
+        "value": 0,
+        "current_value": 0
+      },
+      "guild_competition_visit": {
+        "value": 1,
+        "current_value": 1
+      },
+      "guild_competition_top_100": {
+        "value": 0,
+        "current_value": 0
+      },
+      "guild_competition_first_place": {
+        "value": 0,
+        "current_value": 0
+      },
+      "guild_competition_score_3000": {
+        "value": 0,
+        "current_value": 0
+      },
+      "league_first_place": {
+        "value": 0,
+        "current_value": 0
+      },
+      "league_top_3": {
+        "value": 0,
+        "current_value": 0
+      },
+      "league_top_100": {
+        "value": 0,
+        "current_value": 0
+      },
+      "hideout_exchange_collected": {
+        "value": 0,
+        "current_value": 0
+      },
+      "hideout_gym_collected": {
+        "value": 0,
+        "current_value": 0
+      },
+      "solo_guild_competition_top_1": {
+        "value": 0,
+        "current_value": 0
+      },
+      "solo_guild_competition_top_10": {
+        "value": 0,
+        "current_value": 0
+      },
+      "solo_guild_competition_top_50": {
+        "value": 0,
+        "current_value": 0
+      },
+      "solo_guild_competition_top_100": {
+        "value": 0,
+        "current_value": 0
+      },
+      "solo_guild_competition_participated": {
+        "value": 0,
+        "current_value": 0
+      },
+      "trainings_top_rating": {
+        "value": 1,
+        "current_value": 1
+      },
+      "hideout_blacksmith_armor_collected": {
+        "value": 0,
+        "current_value": 0
+      },
+      "hideout_blacksmith_weapon_collected": {
+        "value": 0,
+        "current_value": 0
+      },
+      "hideout_blacksmith_gadget_collected": {
+        "value": 0,
+        "current_value": 0
+      },
+      "hideout_blacksmith_missile_collected": {
+        "value": 0,
+        "current_value": 0
+      },
+      "hideout_blacksmith_sidekick_collected": {
+        "value": 0,
+        "current_value": 0
+      },
+      "sidekick_released": {
+        "value": 0,
+        "current_value": 0
+      },
+      "season_points_collected": {
+        "value": 1,
+        "current_value": 1
+      },
+      "collect_100_points_in_season": {
+        "value": 0,
+        "current_value": 0
+      },
+      "open_season_panel": {
+        "value": 1,
+        "current_value": 1
+      },
+      "open_season_pass": {
+        "value": 0,
+        "current_value": 0
+      },
+      "collect_different_capes": {
+        "value": 1,
+        "current_value": 1
+      },
+      "collect_different_suits": {
+        "value": 2,
+        "current_value": 2
+      },
+      "collect_different_weapons": {
+        "value": 0,
+        "current_value": 0
+      },
+      "worldboss_last_hit": {
+        "value": 0,
+        "current_value": 0
+      },
+      "dungeon_hardmode_first_quest_completed": {
+        "value": 0,
+        "current_value": 0
+      },
+      "dungeon_hardmode_quest_completed": {
+        "value": 0,
+        "current_value": 0
+      },
+      "booster_training_sense_use": {
+        "value": 0,
+        "current_value": 0
+      },
+      "booster_training_sense_used": {
+        "value": 0,
+        "current_value": 0
+      },
+      "booster_training_sense_used_hours_a_day": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage1_shortsighted_nun": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage1_music_enthusiast": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage1_nasty_cheerleader": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage1_cyclist_rowdy": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage2_lonely_satanist": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage2_street_dance_twins": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage3_overzealous_policewoman": {
+        "value": 0,
+        "current_value": 0
+      },
+      "quest_stage3_shady_balloon_seller": {
+        "value": 0,
+        "current_value": 0
+      },
+      "worldboss_total_damage": {
+        "value": 0,
+        "current_value": 0
+      },
+      "legendary_dungeon_completed": {
+        "value": 0,
+        "current_value": 0
+      },
+      "legendary_dungeon_minions_defeated": {
+        "value": 0,
+        "current_value": 0
+      },
+      "legendary_dungeon_doors_opened": {
+        "value": 0,
+        "current_value": 0
+      },
+      "legendary_dungeon_traps_triggered": {
+        "value": 0,
+        "current_value": 0
+      },
+      "legendary_dungeon_chests_opened": {
+        "value": 0,
+        "current_value": 0
+      }
+    },
+    "collected_goals": [
+      {
+        "second_quests_completed": {
+          "value": 2,
+          "date": "2025-10-01 00:00:00"
+        }
+      },
+      {
+        "quests_completed": {
+          "value": 5,
+          "date": "2025-10-01 00:00:00"
+        }
+      },
+      {
+        "level_reached": {
+          "value": 3,
+          "date": "2025-10-01 00:00:00"
+        }
+      },
+      {
+        "level_reached": {
+          "value": 5,
+          "date": "2025-10-01 00:00:00"
+        }
+      },
+      {
+        "tutorial_completed": {
+          "value": 1,
+          "date": "2025-10-01 00:00:00"
+        }
+      },
+      {
+        "open_season_panel": {
+          "value": 1,
+          "date": "2025-10-01 00:00:00"
+        }
+      },
+      {
+        "item_sold": {
+          "value": 1,
+          "date": "2025-10-01 00:00:00"
+        }
+      },
+      {
+        "shop_refresh": {
+          "value": 1,
+          "date": "2025-10-01 00:00:00"
+        }
+      },
+      {
+        "second_day_logged_in": {
+          "value": 2,
+          "date": "2025-10-04 00:00:00"
+        }
+      },
+      {
+        "duels_completed": {
+          "value": 5,
+          "date": "2025-10-04 00:00:00"
+        }
+      },
+      {
+        "first_guild_battle_fought": {
+          "value": 1,
+          "date": "2025-10-04 00:00:00"
+        }
+      }
+    ],
+    "current_item_pattern_values": {
+      "biker": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "costume": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "disco": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "doctor": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "movie": {
+        "value": 1,
+        "collected_items": [
+          "boots_cowboy_boots1"
+        ],
+        "is_new": false
+      },
+      "robinhood": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "superherozero": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "superheroset1": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "superheroset2": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "superheroset3": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "olympia_2016_rio": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "asian": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "frogman1": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "ironman1": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "movienew": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "musketeer": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "overall": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "powerset1": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "powerset2": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "safari": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "nano": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "pirates": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "wrestling": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "octoberfest": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "halloween": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "superhero": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "work": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "league_custom1": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "league_custom2": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "xmas": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "carnival": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "st_patricks_day": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "easter": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "egypt": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "league_bronze": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "league_champion": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "league_gold": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "league_silver": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "archer": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "sysadmin": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "summer_event": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "powerset3": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "powerset4": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "league_superhero": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "improvised": {
+        "value": 2,
+        "collected_items": [
+          "cape_hair",
+          "boots_hair"
+        ],
+        "is_new": false
+      },
+      "casual": {
+        "value": 3,
+        "collected_items": [
+          "suit_bathrobe1",
+          "mask_cucumber_mask1",
+          "boots_wellies1"
+        ],
+        "is_new": false
+      },
+      "tech": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "cool": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "small_events": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "story_dungeon": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "worldcup": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "missiles": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "hideout_blacksmith": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "seasons": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "powerset5": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "tournament": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "winterolympics": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "dungeon_hardmode": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      },
+      "legendary_dungeon": {
+        "value": 0,
+        "collected_items": [],
+        "is_new": false
+      }
+    },
+    "collected_item_pattern": [],
+    "current_optical_changes": {
+      "id": 201,
+      "character_id": 288,
+      "resource": 0,
+      "ts_last_free_chest": 1759673135,
+      "available_chests": "[{\"free\":true,\"rarity\":1,\"id\":0}]",
+      "active_options": "[2,39,49,50,51,52,53,54,55,56,57,177]",
+      "unlocked_options": "{\"3\":[2],\"12\":[39],\"6\":[49],\"5\":[50],\"7\":[51],\"8\":[52],\"9\":[53],\"4\":[54],\"10\":[55],\"11\":[56],\"2\":[57],\"13\":[177]}",
+      "use_for_character": false,
+      "use_for_quest": false,
+      "use_for_duel": false,
+      "use_for_league": false
+    },
+    "collected_optical_changes": [],
+    "missed_duels": 57,
+    "missed_league_fights": 0,
+    "streams_info": {
+      "m": {
+        "288": {
+          "id": 288,
+          "type": "m",
+          "unread": 0
+        }
+      },
+      "r": {
+        "288": {
+          "id": 288,
+          "type": "r",
+          "unread": 0
+        }
+      },
+      "s": {
+        "288": {
+          "id": 288,
+          "type": "s",
+          "unread": 0
+        }
+      },
+      "v": {
+        "288": {
+          "id": 288,
+          "type": "v",
+          "unread": 0
+        }
+      }
+    },
+    "new_guild_log_entries": 2,
+    "league_locked": false,
+    "expired_guild_boosters": [],
+    "one_time_tutorials": [
+      {
+        "identifier": "leaderboard_tournament_notification",
+        "text_identifier": "leaderboard_tournament",
+        "target": 1,
+        "trigger": 1,
+        "min_level": 15,
+        "available_time_start": null,
+        "available_time_end": null,
+        "delay": null,
+        "padding": null,
+        "direction": null,
+        "messageX": null,
+        "messageY": null,
+        "messageDirection": null
+      }
+    ],
+    "character_guild_inventory": {
+      "id": 165,
+      "character_id": 288,
+      "auto_joins": 0,
+      "missiles": 0,
+      "missiles_max": 0,
+      "medikits": 0,
+      "medikits_max": 0,
+      "weapon_oil": 0,
+      "weapon_oil_max": 0
+    },
+    "tos_update_needed": false,
+    "pp_update_needed": false,
+    "ad_provider_keys": [
+      "atg"
+    ],
+    "local_notification_settings": {
+      "mission_finished": {
+        "id": 1,
+        "active": true,
+        "vibrate": false,
+        "title": "Hero Zero (pt13)",
+        "body": "Voc\u00ea concluiu sua miss\u00e3o!"
+      },
+      "training_finished": {
+        "id": 2,
+        "active": false,
+        "vibrate": false,
+        "title": "Hero Zero (pt13)",
+        "body": "Voc\u00ea concluiu seu treinamento!"
+      },
+      "work_finished": {
+        "id": 3,
+        "active": false,
+        "vibrate": false,
+        "title": "Hero Zero (pt13)",
+        "body": "O seu trabalho est\u00e1 conclu\u00eddo."
+      },
+      "free_duel_available": {
+        "id": 4,
+        "active": false,
+        "vibrate": false,
+        "title": "Hero Zero (pt13)",
+        "body": "Voc\u00ea j\u00e1 tem coragem suficiente de novo para um ataque livre."
+      },
+      "worldboss_attack_finished": {
+        "id": 5,
+        "active": true,
+        "vibrate": false,
+        "title": "Hero Zero (pt13)",
+        "body": "Voc\u00ea concluiu um ataque de vil\u00e3o!"
+      },
+      "hideout_room_build": {
+        "id": 6,
+        "active": true,
+        "vibrate": false,
+        "title": "Hero Zero (pt13)",
+        "body": "Esconderijo heroico: c\u00f4modo foi constru\u00eddo"
+      },
+      "hideout_room_stored": {
+        "id": 7,
+        "active": true,
+        "vibrate": false,
+        "title": "Hero Zero (pt13)",
+        "body": "Esconderijo heroico: c\u00f4modo foi armazenado"
+      },
+      "hideout_room_placed": {
+        "id": 8,
+        "active": true,
+        "vibrate": false,
+        "title": "Hero Zero (pt13)",
+        "body": "Esconderijo heroico: c\u00f4modo foi posicionado"
+      },
+      "hideout_room_upgraded": {
+        "id": 9,
+        "active": true,
+        "vibrate": false,
+        "title": "Hero Zero (pt13)",
+        "body": "Esconderijo heroico: c\u00f4modo foi expandido"
+      },
+      "hideout_room_slot_unlocked": {
+        "id": 10,
+        "active": true,
+        "vibrate": false,
+        "title": "Hero Zero (pt13)",
+        "body": "Esconderijo heroico: terreno para obras foi desbloqueado"
+      },
+      "hideout_attacker_production_finished": {
+        "id": 11,
+        "active": true,
+        "vibrate": false,
+        "title": "Hero Zero (pt13)",
+        "body": "Esconderijo heroico: Produ\u00e7\u00e3o de Bots de Ataque conclu\u00edda!"
+      },
+      "hideout_defender_production_finished": {
+        "id": 12,
+        "active": true,
+        "vibrate": false,
+        "title": "Hero Zero (pt13)",
+        "body": "Esconderijo heroico: Produ\u00e7\u00e3o de Bots de Defesa conclu\u00edda!"
+      },
+      "hideout_improvement_production_finished": {
+        "id": 13,
+        "active": true,
+        "vibrate": false,
+        "title": "Hero Zero (pt13)",
+        "body": "Esconderijo heroico: Produ\u00e7\u00e3o de Modifica\u00e7\u00e3o conclu\u00edda!"
+      },
+      "hideout_blacksmith_production_finished": {
+        "id": 14,
+        "active": true,
+        "vibrate": false,
+        "title": "Hero Zero (pt13)",
+        "body": "Esconderijo heroico: Produ\u00e7\u00e3o da Forja Heroica completa!"
+      },
+      "training_energy_full": {
+        "id": 15,
+        "active": true,
+        "vibrate": false,
+        "title": "Hero Zero (pt13)",
+        "body": "Sua energia de treinamento est\u00e1 cheia. Acabou a folga. Comece a treinar!"
+      },
+      "check_back1": {
+        "id": 16,
+        "active": true,
+        "vibrate": false,
+        "title": "Hero Zero (pt13)",
+        "body": "Humphreydale sente sua falta, e os vil\u00f5es est\u00e3o rindo \u00e0 toa. Mostre a eles quem realmente manda por aqui antes que eles comecem a se achar!"
+      },
+      "check_back2": {
+        "id": 17,
+        "active": true,
+        "vibrate": false,
+        "title": "Hero Zero (pt13)",
+        "body": "Hora de trocar o pijama pela capa de super-her\u00f3i! Afinal, os vil\u00f5es de Humphreydale n\u00e3o v\u00e3o se prender sozinhos!"
+      },
+      "check_back3": {
+        "id": 18,
+        "active": true,
+        "vibrate": false,
+        "title": "Hero Zero (pt13)",
+        "body": "Suas roupas heroicas est\u00e3o lavadas e prontas para a a\u00e7\u00e3o. Humphreydale precisa muito de seus superpoderes de novo!"
+      },
+      "check_back4": {
+        "id": 19,
+        "active": true,
+        "vibrate": false,
+        "title": "Hero Zero (pt13)",
+        "body": "O jornal Humphreydale Times relata um aumento nas atividades criminosas. Voc\u00ea n\u00e3o pode deixar isso acontecer! Volte \u00e0 cidade e mostre aos monstros quem manda por aqui!"
+      },
+      "check_back5": {
+        "id": 20,
+        "active": true,
+        "vibrate": false,
+        "title": "Hero Zero (pt13)",
+        "body": "Os vil\u00f5es desenvolveram um novo plano e aumentaram o n\u00edvel de caos para \u201cextremo\u201d. Precisamos dos seus superpoderes! Volte \u00e0 cidade e mostre a eles como os her\u00f3is de verdade trabalham!"
+      },
+      "treasure_event_free_reveal_items": {
+        "id": 21,
+        "active": true,
+        "vibrate": false,
+        "title": "Hero Zero (pt13)",
+        "body": "P\u00e1s gratuitas est\u00e3o dispon\u00edveis de novo! A Ca\u00e7a \u00e0s Toupeiras continua!"
+      },
+      "story_dungeon_fight_cooldown_finished": {
+        "id": 22,
+        "active": true,
+        "vibrate": false,
+        "title": "Hero Zero (pt13)",
+        "body": "O pr\u00f3ximo ataque gr\u00e1tis da sua Aventura Heroica est\u00e1 dispon\u00edvel!"
+      },
+      "tower_event_region_unlock": {
+        "id": 23,
+        "active": true,
+        "vibrate": false,
+        "title": "Hero Zero (pt13)",
+        "body": "A barreira da sua Academia Heroica foi removida!"
+      }
+    },
+    "missed_hideout_attacks": 0,
+    "guild_gem_production_level": 0,
+    "story_dungeon_lookup": {
+      "id": 160,
+      "character_id": 288,
+      "story_dungeon_step_ids": "[506]",
+      "story_dungeon_steps": "{\"1\":1}"
+    },
+    "story_dungeon_steps": [
+      {
+        "id": 506,
+        "character_id": 288,
+        "story_dungeon_index": 1,
+        "step_index": 1,
+        "status": 2,
+        "repeat": 0,
+        "points_collected": 1,
+        "ts_complete": 0,
+        "ts_last_attack": 0,
+        "rewards": "",
+        "battle_ids": ""
+      }
+    ],
+    "completed_story_dungeon_steps": [],
+    "dungeon_hardmode_emblems": 0,
+    "daily_bonus_lookup": {
+      "id": 201,
+      "character_id": 288,
+      "ts_last_reset": 1759673135,
+      "herobook_daily_completed": 0,
+      "duel_battle_won": 0,
+      "league_battle_won": 0,
+      "hideout_battle_won": 0,
+      "quest_energy_spent": 0
+    },
+    "abo_bonus_claimed": false,
+    "abo_bonus_days_left": 0,
+    "constants_override": [
+      {
+        "identifier": "casino_20251001_no_cash_and_xp",
+        "available_time_start": "2025-10-01 00:00:00",
+        "available_time_end": "2025-10-07 23:59:59",
+        "constants": {
+          "casino_max_daily_spins": -1,
+          "casino_machine_type": 2
+        }
+      }
+    ],
+    "new_version": false,
+    "login_count": 13,
+    "user_voucher_rewards": [],
+    "season_progress": {
+      "id": 201,
+      "season_id": 1,
+      "character_id": 288,
+      "status": 2,
+      "ts_created": 1759353156,
+      "ts_start": 1759273200,
+      "ts_end": 1761868800,
+      "identifier": "armoured_beasts_1",
+      "season_points": 1,
+      "premium_unlocked": false,
+      "restarted": false
+    },
+    "season_rewards": [
+      {
+        "id": 2732,
+        "season_progress_id": 201,
+        "character_id": 288,
+        "status": 1,
+        "ts_created": 1759567658,
+        "season_points": 1,
+        "premium": false,
+        "rewards": "[]"
+      }
+    ],
+    "titles": [],
+    "casino_identifier": "casino_20251001_no_cash_and_xp",
+    "news": [
+      {
+        "id": "patchnotes_2025-09-16",
+        "category": 2,
+        "date": 1757973600,
+        "items": [
+          {
+            "type": 2,
+            "value": "Atualiza\u00e7\u00e3o 16-09-2025"
+          },
+          {
+            "type": 1,
+            "value": "As seguintes mudan\u00e7as foram feitas hoje (16-09-2025):\n-----------------------------------------------------------------------------\nNovas ferramentas\nGeral\n\u2022 Os novos jogadores passam agora a receber um tutorial atualizado que destaca especificamente os torneios do jogo.\n\nManuten\u00e7\u00e3o\nGeral\n\u2022 Em certos casos, podiam ocorrer erros de carregamento na Academia de Her\u00f3is, na lista de classifica\u00e7\u00e3o e no di\u00e1logo de duelos e ligas perdidos. Este problema foi corrigido.\n\u2022 No di\u00e1logo de compra do Booster de Multitarefa, o bot\u00e3o de compra n\u00e3o era poss\u00edvel de clicar. Este problema j\u00e1 tinha sido resolvido atrav\u00e9s de um hotfix.\n\nPr\u00e9-visualiza\u00e7\u00e3o\nUma pequena vista de olhos\nOs nossos desenvolvedores j\u00e1 est\u00e3o a trabalhar na pr\u00f3xima grande funcionalidade \u2013 e prepar\u00e1mos uma pr\u00e9via de uma ilustra\u00e7\u00e3o em desenvolvimento para si!\n\n"
+          },
+          {
+            "type": 3,
+            "value": {
+              "image_url": "patchnotes_2025-09-16",
+              "width": 489,
+              "height": 400
+            }
+          },
+          {
+            "type": 1,
+            "value": "\n\nPor favor, note: Trata-se de um trabalho em progresso, e a apar\u00eancia final ainda pode sofrer altera\u00e7\u00f5es antes do lan\u00e7amento.\n\nCom os melhores cumprimentos,\nA tua Equipa do Hero Zero"
+          }
+        ]
+      }
+    ],
+    "server_timestamp_offset": 3600,
+    "server_time": 1759698222
+  },
+  "error": ""
+}
