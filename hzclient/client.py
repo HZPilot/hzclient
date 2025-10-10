@@ -1,10 +1,13 @@
 from __future__ import annotations
 from typing import Optional, Dict, Any
 from time import time
+import logging
 
 from hzclient.utils import get_client_info
+from hzclient.models import Response
 from .state import GameState, merge_to_state
 from .session import Session
+
 
 class Client:
   def __init__(self, session: Session, state: Optional[GameState] = None):
@@ -12,6 +15,7 @@ class Client:
     self.logged_in = False
     self.state = state or GameState()
     self.client_version, self.build_number = get_client_info()
+    self.logger = logging.getLogger("hzclient")
 
   def call(
     self,
@@ -28,10 +32,10 @@ class Client:
     )
 
     if res.is_success and res.data:
-      print("CALL SUCCESS", action)
+      self.logger.info(f"CALL SUCCESS {action}.")
       merge_to_state(self.state, res.data)
     else:
-      print("CALL FAILED", action, res.status_code, res.error)
+      self.logger.warning(f"CALL FAILED {action}: {res.error}")
     return res
 
   def login(self, email: str, password: str) -> dict:
@@ -77,3 +81,20 @@ class Client:
       params[f"sync_character{self.state.character.id}"] = f"{self.state.sync_states.get(f'character{self.state.character.id}', 0)}"
 
     return self.call("syncGame", params)
+
+  def redeem_voucher(self, voucher_code: str, redeem_later: bool=True) -> dict:
+    return self.call(
+      f"redeem{'UserVoucherLater' if redeem_later else 'Voucher'}",
+      {"code": voucher_code}
+    )
+
+  def watch_ad(self, vid_type: int) -> Response:
+    if self.state.ad_info.remaining_cooldown(vid_type) > 0:
+      return Response(status_code=400, data=None, error="Cannot watch ad yet, still in cooldown.")
+
+    res = self.call("initVideoAdvertisment", {"type": vid_type, "reference_id": self.state.character.id})
+    if res.is_success:
+      ad_id = res.data.get("video_advertisment_id", 0)
+      self.call("finishVideoAdvertisment", {"id": ad_id, "hash": ""})
+      self.state.ad_info.watch_ad(vid_type)
+    return res

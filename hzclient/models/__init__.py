@@ -5,3 +5,9 @@ from .character import Character
 from .quest import Quest
 from .training import Training
 from .training_quest import TrainingQuest
+from .voucher import Voucher
+from .opponent import Opponent
+from .hideout import Hideout
+from .hideout_room import HideoutRoom
+from .ad_info import AdInfo
+from .treasure_event import TreasureEvent

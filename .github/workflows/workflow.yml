@@ -1,0 +1,22 @@
+name: publish
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+jobs:
+  build-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -U build twine
+      - run: python -m build
+      - name: Upload to PyPI
+        run: twine upload dist/* -u __token__ -p ${{ secrets.PYPI }}

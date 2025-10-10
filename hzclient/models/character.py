@@ -60,7 +60,67 @@ class Character(BaseCharacter):
     )
 
   '''
+  Duel
+  '''
+  duel_stamina_cost: int = 0
+  duel_stamina: int = 0
+  ts_last_duel_stamina_change: int = 0
+  max_duel_stamina: int = 0
+
+  @computed_field
+  @property
+  def current_duel_stamina(self) -> int:
+    return calc_regen(
+      self.duel_stamina,
+      self.ts_last_duel_stamina_change,
+      self.max_duel_stamina,
+      CONSTANTS.get(
+        "duel_stamina_refresh_amount_per_minute_first_duel" \
+        if self.duel_stamina <= self.duel_stamina_cost else \
+        "duel_stamina_refresh_amount_per_minute"
+      , 0)
+    )
+
+  '''
+  League
+  '''
+  league_opponents: Annotated[List[int], BeforeValidator(str_to_array)] = []
+  league_stamina_cost: int = 0
+  league_stamina: int = 0
+  ts_last_league_stamina_change: int = 0
+  ts_last_league_opponents_refresh: int = 0
+  max_league_stamina: int = 0
+  league_fight_count: int = 0
+
+  @computed_field
+  @property
+  def current_league_stamina(self) -> int:
+    '''
+    Returns the current league stamina, considering regeneration over time.
+    '''
+    return calc_regen(
+      self.league_stamina,
+      self.ts_last_league_stamina_change,
+      self.max_league_stamina,
+      CONSTANTS.get(
+        "league_stamina_refresh_amount_per_minute_first_fight_booster1" \
+        if self.league_stamina <= self.league_stamina_cost else \
+        "league_stamina_refresh_amount_per_minute"
+      , 0)
+    )
+
+  @property
+  def can_fight_league(self) -> bool:
+    return self.league_fight_count < CONSTANTS.get("league_max_daily_league_fights", 0) \
+      and self.league_stamina >= self.league_stamina_cost
+
+  '''
   Other stuff
   '''
 
   new_user_voucher_ids: Annotated[List[int], BeforeValidator(str_to_array)] = []
+
+  '''
+  Events
+  '''
+  treasure_event_id: int = 0

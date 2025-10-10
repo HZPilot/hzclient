@@ -2735,6 +2735,11 @@
     },
     "user_geo_location": "PT",
     "debug_field": "HelloWorld!",
+    "debug_dict": {
+      "key1": "value1",
+      "key2": 2,
+      "key3": true
+    },
     "has_marketing_email": false,
     "inventory": {
       "id": 201,

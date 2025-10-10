@@ -51,3 +51,28 @@ def parse_json_dict(v):
   if isinstance(v, str):
     return json.loads(v)
   return v
+
+def wrap_in_list(v):
+  if not isinstance(v, list):
+    return [v]
+
+  if all(isinstance(i, dict) and 'opponent' in i for i in v):
+    return [i['opponent'] for i in v]
+  return v
+
+def round_decimal(value: float, decimals: int) -> float:
+  '''
+  Rounds a float to a specified number of decimal places.
+  '''
+  factor = 10 ** decimals
+  return round(value * factor) / factor
+
+def remove_duplicates_by_id(data: list) -> list:
+  seen = set()
+  unique_items = []
+  for item in data:
+    item_id = item.get('id')
+    if item_id not in seen:
+      unique_items.append(item)
+      seen.add(item_id)
+  return unique_items

@@ -36,7 +36,7 @@ def test_user_model():
   state.user.premium_currency += 50
   assert state.user.premium_currency == 100
 
-  merge_to_state(state, {"user": {"premium_currency": 200}})
+  state.update({"user": {"premium_currency": 200}})
   assert state.user.premium_currency == 200
   assert state.user.id == 123 # unchanged
   assert state.user.session_id == "abc" # unchanged
@@ -52,6 +52,16 @@ def test_constants():
 
 def test_state():
   assert state.debug_field == "HelloWorld!"
+  state.debug_field = "NewValue"
+  assert state.debug_field == "NewValue"
+
+  assert state.debug_dict == {
+    "key1": "value1",
+    "key2": 2,
+    "key3": True
+  }
+  state.reset("debug_dict")
+  assert state.debug_dict == {}
 
 
 def test_quests():
@@ -69,3 +79,56 @@ def test_trainings():
     "trainings": []
   })
   assert len(state.trainings) == 0
+
+
+def test_opponents():
+  state.update({
+    "leaderboard_characters": [
+      {
+        "id": 123,
+        "name": "Opponent1"
+      }
+    ]
+  })
+  assert isinstance(state.opponents, list)
+  assert len(state.opponents) == 1
+
+  state.update({
+    "opponent": {
+      "id": 456,
+      "name": "Opponent2"
+    }
+  })
+
+  assert len(state.opponents) == 2
+
+  state.update({
+    "opponent": {
+      "id": 123,
+      "stat_total_strength": 123
+    }
+  })
+
+  assert state.opponents[0].stat_total_strength == 123
+
+
+def test_opponent_simulation():
+  char = {'id': 1, 'stat_total_strength': 100, 'stat_total_stamina': 100, 'stat_total_critical_rating': 50, 'stat_total_dodge_rating': 50}
+  state.update({
+    "character": char,
+    "opponent": char
+  })
+  opponent = state.opponents[-1]
+  assert opponent.id == 1
+  assert opponent.stat_total_strength == 100
+
+  result = opponent.get_win_chance(state.character)
+  assert 0.4 <= result <= 0.6
+
+
+def test_ad_info():
+  assert state.ad_info is not None
+  assert state.ad_info.remaining_cooldown(1) == 0
+
+  state.ad_info.watch_ad(1)
+  assert state.ad_info.remaining_cooldown(1) > 0
