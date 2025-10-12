@@ -3,9 +3,11 @@ from typing import Annotated
 
 from .base import _Base
 from hzclient.utils import parse_json_dict, time_left
+from hzclient.enums import TrainingType
 
 class Training(_Base):
   id: int = 0
+  stat_type: TrainingType = TrainingType.NONE
   status: int = 0
   ts_end: int = 0
 
@@ -49,4 +51,4 @@ class Training(_Base):
     Calculate the fitness of the training based on its stat points per energy cost.
     Penalize high energy costs to avoid selecting to avoid choosing bad trainings.
     '''
-    return self.points / ((self.training_cost+1) * 1.2)
+    return self.points / ((self.training_cost+1) ** 2)

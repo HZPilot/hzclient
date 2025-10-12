@@ -8,6 +8,8 @@ from hzclient.utils import calc_regen, time_left, str_to_array
 class Character(BaseCharacter):
   game_currency: int = 0
 
+  stat_points_available: int = 0
+
   '''
   Quest stuff
   '''

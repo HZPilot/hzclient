@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "hzclient"
-version = "0.1.0"
+version = "0.1.1"
 description = "A client library for interacting with the HeroZero game API"
 authors = [{ name = "Curvu" }]
 readme = "README.md"
