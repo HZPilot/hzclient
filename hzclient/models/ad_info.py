@@ -1,12 +1,11 @@
 from __future__ import annotations
 from time import time
-from typing import ClassVar, Annotated
+from typing import ClassVar
 
-from pydantic import Field, model_validator, BeforeValidator
-from .base import _Base  # make sure _Base has model_config = ConfigDict(validate_assignment=True)
+from pydantic import model_validator
+from .base import _Base
 
 class AdInfo(_Base):
-  # Cooldowns / timestamps / blocked-times, for types 1..8
   remaining_video_advertisment_cooldown__1: int = 0
   ts_last_update__1: int = 0
   video_advertisment_blocked_time__1: int = 0
@@ -68,3 +67,13 @@ class AdInfo(_Base):
     blocked = self.blocked_time(ad_type)
     setattr(self, self._CD_FMT.format(ad_type), int(blocked))
     setattr(self, self._TS_FMT.format(ad_type), int(time()))
+
+  @model_validator(mode="after")
+  def _stamp_ts_for_positive_cooldowns(self):
+    now = int(time())
+    for i in range(1, 9):
+      cd = getattr(self, self._CD_FMT.format(i), 0)
+      ts = getattr(self, self._TS_FMT.format(i), 0)
+      if cd > 0 and ts <= 0:
+        object.__setattr__(self, self._TS_FMT.format(i), now)
+    return self

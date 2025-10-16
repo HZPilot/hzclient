@@ -1,7 +1,7 @@
-import json
+import json, time
 from unittest.mock import MagicMock
 
-from hzclient.state import GameState, merge_to_state
+from hzclient.state import GameState
 from hzclient.client import Client
 from hzclient.session import Session, Response
 from hzclient.models import Config, User
@@ -128,7 +128,14 @@ def test_opponent_simulation():
 
 def test_ad_info():
   assert state.ad_info is not None
-  assert state.ad_info.remaining_cooldown(1) == 0
 
+  assert state.ad_info.remaining_cooldown(2) != 0
+  assert state.ad_info.ts_last_update__2 > 0
+
+  time.sleep(2)
+  assert state.ad_info.remaining_cooldown(2) <= 0
+
+  assert state.ad_info.remaining_cooldown(1) == 0
   state.ad_info.watch_ad(1)
   assert state.ad_info.remaining_cooldown(1) > 0
+  assert state.ad_info.ts_last_update__1 > 0

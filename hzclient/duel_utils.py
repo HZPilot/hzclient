@@ -1,4 +1,3 @@
-from time import time
 from random import random
 from typing import Dict
 
@@ -6,6 +5,12 @@ from hzclient.models.base_character import BaseCharacter
 from hzclient.constants import CONSTANTS
 from .utils import round_decimal
 
+
+'''
+"battle_effects": {
+
+playata.application.data.battle.BattleEffect
+'''
 
 def _get_chance(rating_1: float, rating_2: float, vars) -> float:
   '''
@@ -66,7 +71,7 @@ def _simulate_turn(attacker_stats: Dict[str, float], defender_stats: Dict[str, f
   '''
   if random() > defender_stats["dodge_chance"]:
     if random() < attacker_stats["critical_chance"]:
-      damage = attacker_stats["damage"] * CONSTANTS.get("battle_critical_damage_multiplier", 1)
+      damage = attacker_stats["damage"] * 2
     else:
       damage = attacker_stats["damage"]
     return damage

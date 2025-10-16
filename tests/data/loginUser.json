@@ -4169,7 +4169,7 @@
       "advertisment_refresh_rate": 512640,
       "remaining_video_advertisment_cooldown__1": 0,
       "video_advertisment_blocked_time__1": 900,
-      "remaining_video_advertisment_cooldown__2": 0,
+      "remaining_video_advertisment_cooldown__2": 1,
       "video_advertisment_blocked_time__2": 900,
       "remaining_video_advertisment_cooldown__4": 0,
       "video_advertisment_blocked_time__4": 900,

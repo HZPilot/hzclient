@@ -20,5 +20,10 @@ def get_constants():
   r.raise_for_status()
   CONSTANTS.update(decode_constants(r.content))
 
+  # r = requests.get('https://hz-static-2.akamaized.net/assets/i18n/pt_PT/text.data', timeout=10)
+  # r.raise_for_status()
+  # with open('text.data', 'wb') as f:
+  #   f.write(decode_constants(r.content))
+
 
 get_constants()
